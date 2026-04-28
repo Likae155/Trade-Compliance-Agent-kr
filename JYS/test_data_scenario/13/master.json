@@ -1,0 +1,247 @@
+{
+    "transaction_id": "SK-AE-2026-INS-5509",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "K-DEFENSE SOLUTIONS CO., LTD.",
+                "addr": "210, Pangyo-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, 13488",
+                "country": "South Korea",
+                "reg_no": "114-81-99001",
+                "contact_person": "Tae-young Kang",
+                "email": "ty.kang@kdefense.kr"
+            },
+            "importer": {
+                "name": "EMIRATES SECURITY SYSTEMS LLC",
+                "addr": "Level 15, Al Mas Tower, Jumeirah Lakes Towers, Dubai",
+                "country": "United Arab Emirates",
+                "tax_id": "TRN 100223344550003",
+                "contact_person": "Saeed Al-Maktoum"
+            },
+            "notify_party": {
+                "name": "DUBAI PORT WORLD (DP WORLD)",
+                "addr": "Jebel Ali Free Zone, Dubai",
+                "contact": "+971-4-881-5555"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Jebel Ali Port",
+                "un_locode": "AEJEA"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "ZIM VIRGINIA",
+            "voyage_no": "088W",
+            "carrier": "ZIM LINE",
+            "container_details": {
+                "type": "20ft FCL",
+                "no": "ZIMU4433221",
+                "seal_no": "AE2026M5"
+            },
+            "packaging": {
+                "type": "Reinforced Aluminum Cases",
+                "quantity": 15,
+                "dimensions_per_pkg": "100 x 80 x 80 cm"
+            },
+            "weight": {
+                "gross": 5200.0,
+                "net": 4800.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 12.0,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "THERMAL IMAGING SURVEILLANCE SYSTEM",
+            "brand_model": "K-SIGHT PRO 500",
+            "hs_code": "9027.50",
+            "origin": "South Korea",
+            "unit_price": 22000.0,
+            "quantity": 15,
+            "total_amount": 330000.0,
+            "currency": "USD",
+            "marks_numbers": "ESS/DXB/01-15"
+        },
+        "banking_details": {
+            "beneficiary_bank": "SHINHAN BANK",
+            "swift_code": "SHBKKRSE",
+            "account_no": "110-445-667788",
+            "bank_address": "20, Sejong-daero 9-gil, Jung-gu, Seoul",
+            "issuing_bank": "EMIRATES NBD BANK PJSC"
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "ICC UCP 600",
+            "arbitration_place": "Dubai, UAE"
+        },
+        "dates": {
+            "contract_date": "2026-03-01",
+            "lc_issue_date": "2026-03-15",
+            "latest_shipment_date": "2026-04-20",
+            "bl_date": "2026-04-18",
+            "lc_expiry_date": "2026-05-10",
+            "invoice_date": "2026-04-15"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "KD-ESS-2026-SEC",
+            "date": "2026-03-01",
+            "seller": {
+                "name": "K-DEFENSE SOLUTIONS CO., LTD."
+            },
+            "buyer": {
+                "name": "EMIRATES SECURITY SYSTEMS LLC"
+            },
+            "shipment_deadline": "2026-04-20",
+            "items": [
+                {
+                    "description": "THERMAL IMAGING SURVEILLANCE SYSTEM K-SIGHT PRO 500",
+                    "hs_code": "9027.50",
+                    "quantity": 15,
+                    "unit_price": 22000.0,
+                    "amount": 330000.0,
+                    "brand_model": "K-SIGHT PRO 500"
+                }
+            ],
+            "total_amount": 330000.0,
+            "currency": "USD",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "CIF JEBEL ALI PORT",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "ENBD2026DXB771",
+            "issuing_bank": "EMIRATES NBD BANK PJSC, DUBAI",
+            "advising_bank": "SHINHAN BANK, SEOUL",
+            "issue_date": "2026-03-15",
+            "expiry_date": "2026-05-10",
+            "applicant": {
+                "name": "EMIRATES SECURITY SYSTEMS LLC"
+            },
+            "beneficiary": {
+                "name": "K-DEFENSE SOLUTIONS CO., LTD."
+            },
+            "amount": 330000.0,
+            "currency": "USD",
+            "tolerance_percentage": "NIL",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "SHINHAN BANK BY NEGOTIATION",
+            "draft_at": "AT SIGHT",
+            "description_of_goods": "15 UNITS OF K-SIGHT PRO 500 THERMAL IMAGING SYSTEMS. CIF JEBEL ALI.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE IN 3 COPIES",
+                "FULL SET 3/3 CLEAN ON BOARD OCEAN BILL OF LADING",
+                "PACKING LIST IN 3 COPIES",
+                "INSURANCE POLICY OR CERTIFICATE ISSUED TO THE ORDER OF EMIRATES NBD BANK PJSC COVERING INSTITUTE CARGO CLAUSES (A) FOR 110 PERCENT OF INVOICE VALUE"
+            ],
+            "additional_conditions": [
+                "INSURANCE MUST COVER ALL RISKS AS PER ICC(A).",
+                "DISCREPANCY FEE USD 150"
+            ]
+        },
+        "insurance": {
+            "policy_no": "KOREA-INS-99088",
+            "insurer": "KOREA MARINE & FIRE INSURANCE",
+            "insured": "K-DEFENSE SOLUTIONS CO., LTD. (Not Endorsed)",
+            "beneficiary": "K-DEFENSE SOLUTIONS CO., LTD.",
+            "amount": 363000.0,
+            "currency": "USD",
+            "coverage_terms": "INSTITUTE CARGO CLAUSES (C)",
+            "vessel_name": "ZIM VIRGINIA",
+            "voyage": "BUSAN TO JEBEL ALI",
+            "discrepancy_note": "CRITICAL DISCREPANCY: L/C requires ICC(A) 'All Risks' coverage, but the provided policy only covers ICC(C) 'Minimum Risks'. Also, the insured party is the Exporter, not 'To the order of Emirates NBD Bank PJSC' as required by L/C."
+        },
+        "bl": {
+            "bl_no": "ZIMUPUSAE26",
+            "shipper": {
+                "name": "K-DEFENSE SOLUTIONS CO., LTD."
+            },
+            "consignee": "TO THE ORDER OF EMIRATES NBD BANK PJSC",
+            "notify_party": {
+                "name": "EMIRATES SECURITY SYSTEMS LLC"
+            },
+            "vessel_name": "ZIM VIRGINIA",
+            "voyage_no": "088W",
+            "port_of_loading": "BUSAN PORT, KOREA",
+            "port_of_discharge": "JEBEL ALI PORT, UAE",
+            "container_seal_no": "ZIMU4433221 / AE2026M5",
+            "marks_and_nos": "ESS/DXB/01-15",
+            "description_of_goods": "15 ALUMINUM CASES OF THERMAL IMAGING SYSTEMS",
+            "total_pkgs": 15,
+            "gross_weight": 5200.0,
+            "measurement": 12.0,
+            "freight_term": "Freight Prepaid",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2026-04-18",
+            "place_of_issue": "BUSAN, KOREA",
+            "signed_by": "ZIM LINE",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "KDS-INV-0415",
+            "date": "2026-04-15",
+            "seller": {
+                "name": "K-DEFENSE SOLUTIONS CO., LTD."
+            },
+            "buyer": {
+                "name": "EMIRATES SECURITY SYSTEMS LLC"
+            },
+            "transport_details": "ZIM VIRGINIA V.088W",
+            "payment_info": "L/C ENBD2026DXB771",
+            "marks_and_nos": "ESS/DXB/01-15",
+            "items": [
+                {
+                    "description": "K-SIGHT PRO 500 THERMAL IMAGING SYSTEMS",
+                    "qty": 15,
+                    "unit_price": 22000.0,
+                    "total": 330000.0,
+                    "brand_model": "K-SIGHT PRO 500"
+                }
+            ],
+            "total_amount": 330000.0,
+            "currency": "USD",
+            "incoterms": "CIF JEBEL ALI",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": ""
+        },
+        "pl": {
+            "pl_no": "KDS-PL-0415",
+            "date": "2026-04-15",
+            "seller": {
+                "name": "K-DEFENSE SOLUTIONS CO., LTD."
+            },
+            "buyer": {
+                "name": "EMIRATES SECURITY SYSTEMS LLC"
+            },
+            "invoice_ref_no": "KDS-INV-0415",
+            "transport_details": "ZIM VIRGINIA V.088W",
+            "marks_and_nos": "ESS/DXB/01-15",
+            "items": [
+                {
+                    "description": "K-SIGHT PRO 500 THERMAL IMAGING SYSTEMS",
+                    "quantity": 15,
+                    "net_weight": 4800.0,
+                    "gross_weight": 5200.0,
+                    "measurement": 12.0
+                }
+            ],
+            "total_quantity": 15,
+            "total_net_weight": 4800.0,
+            "total_gross_weight": 5200.0,
+            "total_measurement": 12.0,
+            "is_signed": true
+        }
+    }
+}

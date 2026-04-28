@@ -1,0 +1,7 @@
+[
+    {
+        "doc": "invoice",
+        "issue": "AI Noted Discrepancy",
+        "detail": "Intentional Discrepancy: Shipping date 2024-10-16 exceeds latest shipment date 2024-10-15."
+    }
+]

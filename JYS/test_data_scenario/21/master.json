@@ -1,0 +1,235 @@
+{
+    "transaction_id": "KR-BR-2024-8842-X",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "Hyundai Robotics Precision",
+                "addr": "123 Techno-valley, Pangyo, Seongnam, Gyeonggi-do, South Korea",
+                "country": "South Korea",
+                "reg_no": "129-88-12345",
+                "contact_person": "Min-Ho Kim",
+                "email": "m.kim@hyundai-robotics.kr"
+            },
+            "importer": {
+                "name": "Sao Paulo Automotiva S.A.",
+                "addr": "Av. Paulista, 1000, Sao Paulo, SP, Brazil",
+                "country": "Brazil",
+                "tax_id": "CNPJ 12.345.678/0001-99",
+                "contact_person": "Ricardo Santos"
+            },
+            "notify_party": {
+                "name": "Sao Paulo Logistics Hub",
+                "addr": "Rua da Alfandega, 55, Santos, SP, Brazil",
+                "contact": "Logistics Dept"
+            }
+        },
+        "logistics": {
+            "mode": "SEA",
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Port of Santos",
+                "un_locode": "BRSSZ"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "HYUNDAI PROGRESS",
+            "voyage_no": "V.042W",
+            "carrier": "HMM Co., Ltd.",
+            "container_details": {
+                "type": "40ft High Cube",
+                "no": "HMMU1234567",
+                "seal_no": "SL-998877"
+            },
+            "packaging": {
+                "type": "Wooden Crates",
+                "quantity": 10,
+                "dimensions_per_pkg": "200x120x150 cm"
+            },
+            "weight": {
+                "gross": 8500,
+                "net": 7800,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 36,
+                "unit": "CBM"
+            }
+        },
+        "product": {
+            "name": "Industrial Robotic Arms",
+            "brand_model": "HYUNDAI-ROBO-X1000",
+            "hs_code": "847950",
+            "origin": "South Korea",
+            "unit_price": 25000,
+            "quantity": 10,
+            "total_amount": 250000,
+            "currency": "USD",
+            "marks_numbers": "SPA-2024-001"
+        },
+        "banking_details": {
+            "beneficiary_bank": "Woori Bank, Seoul Branch",
+            "swift_code": "WOBKRSE",
+            "account_no": "1002-123-456789",
+            "bank_address": "Sogong-ro, Jung-gu, Seoul, Korea",
+            "issuing_bank": "Banco do Brasil S.A."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "Sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "NOT SPECIFIED (RISK: CISG Applicability/Hague Convention Issues)",
+            "arbitration_place": "Seoul",
+            "additional_notes": "Compliance Risk: Governing Law is absent, potentially subjecting both parties to unexpected legal jurisdictions under Hague Convention 1955 principles."
+        },
+        "dates": {
+            "contract_date": "2024-01-10",
+            "lc_issue_date": "2024-01-20",
+            "latest_shipment_date": "2024-03-01",
+            "bl_date": "2024-03-02",
+            "lc_expiry_date": "2024-03-15",
+            "invoice_date": "2024-03-01"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "HRP-BR-001",
+            "date": "2024-01-10",
+            "seller": {
+                "name": "Hyundai Robotics Precision"
+            },
+            "buyer": {
+                "name": "Sao Paulo Automotiva S.A."
+            },
+            "shipment_deadline": "2024-03-01",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arm",
+                    "brand_model": "HYUNDAI-ROBO-X1000",
+                    "hs_code": "847950",
+                    "quantity": 10,
+                    "unit_price": 25000,
+                    "amount": 250000
+                }
+            ],
+            "total_amount": 250000,
+            "currency": "USD",
+            "payment_terms": "L/C at Sight",
+            "incoterms": "CIF",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "LCS-2024-9988",
+            "issuing_bank": "Banco do Brasil S.A.",
+            "advising_bank": "Woori Bank",
+            "issue_date": "2024-01-20",
+            "expiry_date": "2024-03-15",
+            "applicant": {
+                "name": "Sao Paulo Automotiva S.A."
+            },
+            "beneficiary": {
+                "name": "Hyundai Robotics Precision"
+            },
+            "amount": 250000,
+            "currency": "USD",
+            "tolerance_percentage": "+/- 5%",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "ANY BANK BY NEGOTIATION",
+            "draft_at": "SIGHT",
+            "description_of_goods": "Industrial Robotic Arms",
+            "documents_required": [
+                "Bill of Lading",
+                "Commercial Invoice",
+                "Packing List",
+                "Insurance Certificate"
+            ],
+            "additional_conditions": [
+                "Governing law: NONE"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMM-SAO-0099",
+            "shipper": {
+                "name": "Hyundai Robotics Precision"
+            },
+            "consignee": "TO THE ORDER OF BANCO DO BRASIL S.A.",
+            "notify_party": {
+                "name": "Sao Paulo Automotiva S.A."
+            },
+            "vessel_name": "HYUNDAI PROGRESS",
+            "voyage_no": "V.042W",
+            "port_of_loading": "KRPUS",
+            "port_of_discharge": "BRSSZ",
+            "container_seal_no": "SL-998877",
+            "marks_and_nos": "SPA-2024-001",
+            "description_of_goods": "10 Units of Industrial Robotic Arms",
+            "total_pkgs": 10,
+            "gross_weight": 8500,
+            "measurement": 36,
+            "freight_term": "PREPAID",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2024-03-02",
+            "place_of_issue": "Busan, Korea",
+            "signed_by": "Authorized Signatory HMM",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "INV-2024-001",
+            "date": "2024-03-01",
+            "seller": {
+                "name": "Hyundai Robotics Precision"
+            },
+            "buyer": {
+                "name": "Sao Paulo Automotiva S.A."
+            },
+            "transport_details": "Vessel: HYUNDAI PROGRESS",
+            "payment_info": "L/C LCS-2024-9988",
+            "marks_and_nos": "SPA-2024-001",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arm",
+                    "brand_model": "HYUNDAI-ROBO-X1000",
+                    "quantity": 10,
+                    "unit_price": 25000,
+                    "total": 250000
+                }
+            ],
+            "total_amount": 250000,
+            "currency": "USD",
+            "incoterms": "CIF",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": "L/C shipment deadline was 2024-03-01; shipment occurred 2024-03-02. This is a LATE SHIPMENT discrepancy."
+        },
+        "pl": {
+            "pl_no": "PL-2024-001",
+            "date": "2024-03-01",
+            "seller": {
+                "name": "Hyundai Robotics Precision"
+            },
+            "buyer": {
+                "name": "Sao Paulo Automotiva S.A."
+            },
+            "invoice_ref_no": "INV-2024-001",
+            "transport_details": "40ft Container HMMU1234567",
+            "marks_and_nos": "SPA-2024-001",
+            "items": [
+                {
+                    "description": "Robotic Arm Unit",
+                    "quantity": 10,
+                    "net_weight": 7800,
+                    "gross_weight": 8500,
+                    "measurement": 36
+                }
+            ],
+            "total_quantity": 10,
+            "total_net_weight": 7800,
+            "total_gross_weight": 8500,
+            "total_measurement": 36,
+            "is_signed": true
+        }
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "transaction_id": "SK-IT-2026-ERR-4412",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "COREA ROBOTICS & AUTOMATION LTD.",
+                "addr": "150, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, 13493",
+                "country": "South Korea",
+                "reg_no": "214-81-77889",
+                "contact_person": "Sang-woo Lee",
+                "email": "export@corearobotics.kr"
+            },
+            "importer": {
+                "name": "MILANO SMART FACTORY S.P.A.",
+                "addr": "Via Montenapoleone 8, 20121 Milano",
+                "country": "Italy",
+                "tax_id": "IT01234567890",
+                "contact_person": "Giuseppe Conti"
+            },
+            "notify_party": {
+                "name": "ADRIATIC LOGISTICS SERVICES",
+                "addr": "Porto Marghera, Venice",
+                "contact": "+39-041-556-2211"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Gwangyang Port",
+                "un_locode": "KRKAN"
+            },
+            "port_discharge": {
+                "name": "Port of Genoa",
+                "un_locode": "ITGOA"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "MSC TESSA",
+            "voyage_no": "MT612W",
+            "carrier": "MSC",
+            "container_details": {
+                "type": "40ft FCL",
+                "no": "MSCU9900112",
+                "seal_no": "IT776655"
+            },
+            "packaging": {
+                "type": "Anti-Static Crates",
+                "quantity": 12,
+                "dimensions_per_pkg": "120 x 120 x 180 cm"
+            },
+            "weight": {
+                "gross": 14200.0,
+                "net": 13000.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 31.1,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "INDUSTRIAL COLLABORATIVE ROBOTS",
+            "brand_model": "CO-BOT X-10",
+            "hs_code": "8479.50",
+            "origin": "South Korea",
+            "unit_price": 24000.0,
+            "quantity": 10,
+            "total_amount": 240000.0,
+            "currency": "EUR",
+            "marks_numbers": "MSF/GENOA/01-12"
+        },
+        "banking_details": {
+            "beneficiary_bank": "SHINHAN BANK",
+            "swift_code": "SHBKKRSE",
+            "account_no": "110-554-332211",
+            "bank_address": "20, Sejong-daero 9-gil, Jung-gu, Seoul",
+            "issuing_bank": "INTESA SANPAOLO S.P.A."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "Italian Law",
+            "arbitration_place": "Milan, Italy"
+        },
+        "dates": {
+            "contract_date": "2026-03-01",
+            "lc_issue_date": "2026-03-15",
+            "latest_shipment_date": "2026-04-20",
+            "bl_date": "2026-04-12",
+            "lc_expiry_date": "2026-05-05",
+            "invoice_date": "2026-04-10"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "CR-MSF-2026-03",
+            "date": "2026-03-01",
+            "seller": {
+                "name": "COREA ROBOTICS & AUTOMATION LTD."
+            },
+            "buyer": {
+                "name": "MILANO SMART FACTORY S.P.A."
+            },
+            "shipment_deadline": "2026-04-20",
+            "items": [
+                {
+                    "description": "INDUSTRIAL COLLABORATIVE ROBOTS CO-BOT X-10",
+                    "hs_code": "8479.50",
+                    "quantity": 10,
+                    "unit_price": 24000.0,
+                    "amount": 240000.0,
+                    "brand_model": "CO-BOT X-10"
+                }
+            ],
+            "total_amount": 240000.0,
+            "currency": "EUR",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "CIF GENOA PORT",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "ISP2026MIL880",
+            "issuing_bank": "INTESA SANPAOLO S.P.A., MILANO",
+            "advising_bank": "SHINHAN BANK, SEOUL",
+            "issue_date": "2026-03-15",
+            "expiry_date": "2026-05-05",
+            "applicant": {
+                "name": "MILANO SMART FACTORY S.P.A."
+            },
+            "beneficiary": {
+                "name": "COREA ROBOTICS & AUTOMATION LTD."
+            },
+            "amount": 240000.0,
+            "currency": "EUR",
+            "tolerance_percentage": "NIL",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "SHINHAN BANK BY NEGOTIATION",
+            "draft_at": "AT SIGHT",
+            "description_of_goods": "10 UNITS OF INDUSTRIAL COLLABORATIVE ROBOTS AS PER CONTRACT CR-MSF-2026-03. TOTAL VALUE EUR 240,000.00.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE IN 3 COPIES INDICATING L/C NUMBER",
+                "FULL SET 3/3 CLEAN ON BOARD OCEAN BILL OF LADING MADE OUT TO THE ORDER OF INTESA SANPAOLO S.P.A. MARKED FREIGHT PREPAID",
+                "PACKING LIST IN 2 COPIES",
+                "INSURANCE POLICY FOR 110 PERCENT OF INVOICE VALUE"
+            ],
+            "additional_conditions": [
+                "PURSUANT TO UCP 600 ARTICLE 18, INVOICE MUST BE ISSUED IN THE CURRENCY OF THE CREDIT.",
+                "DISCREPANCY FEE EUR 100"
+            ]
+        },
+        "bl": {
+            "bl_no": "MSCUGR112233",
+            "shipper": {
+                "name": "COREA ROBOTICS & AUTOMATION LTD."
+            },
+            "consignee": "TO THE ORDER OF INTESA SANPAOLO S.P.A.",
+            "notify_party": {
+                "name": "MILANO SMART FACTORY S.P.A."
+            },
+            "vessel_name": "MSC TESSA",
+            "voyage_no": "MT612W",
+            "port_of_loading": "GWANGYANG PORT, KOREA",
+            "port_of_discharge": "PORT OF GENOA, ITALY",
+            "container_seal_no": "MSCU9900112 / IT776655",
+            "marks_and_nos": "MSF/GENOA/01-12",
+            "description_of_goods": "40FT FCL STC: 12 CRATES OF INDUSTRIAL COLLABORATIVE ROBOTS",
+            "total_pkgs": 12,
+            "gross_weight": 14200.0,
+            "measurement": 31.1,
+            "freight_term": "Freight Prepaid",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2026-04-12",
+            "place_of_issue": "GWANGYANG, KOREA",
+            "signed_by": "MSC",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "CRA-INV-2026-012",
+            "date": "2026-04-10",
+            "seller": {
+                "name": "COREA ROBOTICS & AUTOMATION LTD."
+            },
+            "buyer": {
+                "name": "MILANO SMART FACTORY S.P.A."
+            },
+            "transport_details": "MSC TESSA MT612W",
+            "payment_info": "L/C NO. ISP2026MIL880",
+            "marks_and_nos": "MSF/GENOA/01-12",
+            "items": [
+                {
+                    "description": "INDUSTRIAL COLLABORATIVE ROBOTS CO-BOT X-10",
+                    "qty": 10,
+                    "unit_price": 26160.0,
+                    "total": 261600.0,
+                    "brand_model": "CO-BOT X-10"
+                }
+            ],
+            "total_amount": 261600.0,
+            "currency": "USD",
+            "incoterms": "CIF GENOA (INCOTERMS 2020)",
+            "is_signed": false,
+            "discrepancy_note": "CRITICAL: Invoice issued in USD (Total 261,600.00) while L/C is in EUR (Total 240,000.00). Invoice is unsigned despite L/C requirement 'Signed Commercial Invoice'.",
+            "has_shipped_stamp": true
+        },
+        "pl": {
+            "pl_no": "CRA-PL-2026-012",
+            "date": "2026-04-10",
+            "seller": {
+                "name": "COREA ROBOTICS & AUTOMATION LTD."
+            },
+            "buyer": {
+                "name": "MILANO SMART FACTORY S.P.A."
+            },
+            "invoice_ref_no": "CRA-INV-2026-012",
+            "transport_details": "MSC TESSA MT612W",
+            "marks_and_nos": "MSF/GENOA/01-12",
+            "items": [
+                {
+                    "description": "INDUSTRIAL COLLABORATIVE ROBOTS CO-BOT X-10",
+                    "quantity": 10,
+                    "net_weight": 13000.0,
+                    "gross_weight": 14200.0,
+                    "measurement": 31.1
+                }
+            ],
+            "total_quantity": 10,
+            "total_net_weight": 13000.0,
+            "total_gross_weight": 14200.0,
+            "total_measurement": 31.1,
+            "is_signed": true
+        }
+    }
+}

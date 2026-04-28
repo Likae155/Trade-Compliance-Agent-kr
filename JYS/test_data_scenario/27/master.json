@@ -1,0 +1,250 @@
+{
+    "transaction_id": "KR-BR-2023-8842-X",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "Samsung Electro-Mechanics Co., Ltd.",
+                "addr": "150, Maeyeong-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, South Korea",
+                "country": "South Korea",
+                "reg_no": "124-81-00998",
+                "contact_person": "Mr. Kim Min-su",
+                "email": "m.kim@samsung-sem.com"
+            },
+            "importer": {
+                "name": "Techtronics Brasil Ltda.",
+                "addr": "Av. Paulista, 1000, São Paulo, SP, 01310-100",
+                "country": "Brazil",
+                "tax_id": "CNPJ 12.345.678/0001-99",
+                "contact_person": "Carlos Oliveira"
+            },
+            "notify_party": {
+                "name": "Logistics Partner Brasil S.A.",
+                "addr": "Rua da Alfândega, 50, Santos, SP, Brazil",
+                "contact": "Eduardo Santos"
+            }
+        },
+        "logistics": {
+            "mode": "SEA",
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Port of Santos",
+                "un_locode": "BRSSZ"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "Hyundai Hope",
+            "voyage_no": "042E",
+            "carrier": "HMM Co., Ltd.",
+            "container_details": {
+                "type": "40ft High Cube",
+                "no": "HMMU1234567",
+                "seal_no": "KRS-998877"
+            },
+            "packaging": {
+                "type": "Pallets",
+                "quantity": 20,
+                "dimensions_per_pkg": "120x100x110 cm"
+            },
+            "weight": {
+                "gross": 8500,
+                "net": 7200,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 45,
+                "unit": "CBM"
+            }
+        },
+        "product": {
+            "name": "Electronic Components",
+            "brand_model": "Samsung MLCC-Series",
+            "hs_code": "853224",
+            "origin": "South Korea",
+            "unit_price": 500,
+            "quantity": 1000,
+            "total_amount": 500000,
+            "currency": "USD",
+            "marks_numbers": "TECH-BR-2023-01"
+        },
+        "banking_details": {
+            "beneficiary_bank": "Woori Bank, Seoul Branch",
+            "swift_code": "WBNK KR SE",
+            "account_no": "1002-987-654321",
+            "bank_address": "Sogong-ro, Jung-gu, Seoul, Korea",
+            "issuing_bank": "Banco do Brasil S.A."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "90 days after sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "Korean Commercial Code",
+            "arbitration_place": "Seoul International Dispute Resolution Center",
+            "additional_notes": "Internal audit flagged: Potential Vertical Price Restraint (KFTC Act Art 46) and risk of administrative fines under Art 125."
+        },
+        "dates": {
+            "contract_date": "2023-10-01",
+            "lc_issue_date": "2023-10-15",
+            "latest_shipment_date": "2023-11-30",
+            "bl_date": "2023-12-02",
+            "lc_expiry_date": "2023-12-15",
+            "invoice_date": "2023-11-25"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "CT-2023-001",
+            "date": "2023-10-01",
+            "seller": {
+                "name": "Samsung Electro-Mechanics"
+            },
+            "buyer": {
+                "name": "Techtronics Brasil"
+            },
+            "shipment_deadline": "2023-11-30",
+            "items": [
+                {
+                    "description": "MLCC Capacitors",
+                    "brand_model": "CL10B105",
+                    "hs_code": "853224",
+                    "quantity": 500,
+                    "unit_price": 600,
+                    "amount": 300000
+                },
+                {
+                    "description": "Inductor Coils",
+                    "brand_model": "CIGT2016",
+                    "hs_code": "853224",
+                    "quantity": 500,
+                    "unit_price": 400,
+                    "amount": 200000
+                }
+            ],
+            "total_amount": 500000,
+            "currency": "USD",
+            "payment_terms": "90 days after sight",
+            "incoterms": "CIF",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "LCR-123456",
+            "issuing_bank": "Banco do Brasil",
+            "advising_bank": "Woori Bank",
+            "issue_date": "2023-10-15",
+            "expiry_date": "2023-12-15",
+            "applicant": {
+                "name": "Techtronics Brasil"
+            },
+            "beneficiary": {
+                "name": "Samsung Electro-Mechanics"
+            },
+            "amount": 500000,
+            "currency": "USD",
+            "tolerance_percentage": "0/0",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "Any bank",
+            "draft_at": "90 days after sight",
+            "description_of_goods": "Electronic components",
+            "documents_required": [
+                "B/L",
+                "Invoice",
+                "Packing List",
+                "Certificate of Origin"
+            ],
+            "additional_conditions": [
+                "Compliance with KFTC guidelines required"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMM-B-7788",
+            "shipper": {
+                "name": "Samsung Electro-Mechanics"
+            },
+            "consignee": "TO THE ORDER OF Banco do Brasil S.A.",
+            "notify_party": {
+                "name": "Techtronics Brasil"
+            },
+            "vessel_name": "Hyundai Hope",
+            "voyage_no": "042E",
+            "port_of_loading": "Busan",
+            "port_of_discharge": "Santos",
+            "container_seal_no": "KRS-998877",
+            "marks_and_nos": "TECH-BR-2023-01",
+            "description_of_goods": "Electronic Components",
+            "total_pkgs": 20,
+            "gross_weight": 8500,
+            "measurement": 45,
+            "freight_term": "Prepaid",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2023-12-02",
+            "place_of_issue": "Seoul",
+            "signed_by": "Authorized Signatory",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "INV-2023-1125",
+            "date": "2023-11-25",
+            "seller": {
+                "name": "Samsung Electro-Mechanics"
+            },
+            "buyer": {
+                "name": "Techtronics Brasil"
+            },
+            "transport_details": "Hyundai Hope 042E",
+            "payment_info": "L/C LCR-123456",
+            "marks_and_nos": "TECH-BR-2023-01",
+            "items": [
+                {
+                    "description": "MLCC Capacitors",
+                    "brand_model": "CL10B105",
+                    "quantity": 500,
+                    "unit_price": 600,
+                    "total": 300000
+                },
+                {
+                    "description": "Inductor Coils",
+                    "brand_model": "CIGT2016",
+                    "quantity": 500,
+                    "unit_price": 400,
+                    "total": 200000
+                }
+            ],
+            "total_amount": 500000,
+            "currency": "USD",
+            "incoterms": "CIF",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": "B/L date 2023-12-02 exceeds latest shipment date 2023-11-30"
+        },
+        "pl": {
+            "pl_no": "PL-2023-1125",
+            "date": "2023-11-25",
+            "seller": {
+                "name": "Samsung Electro-Mechanics"
+            },
+            "buyer": {
+                "name": "Techtronics Brasil"
+            },
+            "invoice_ref_no": "INV-2023-1125",
+            "transport_details": "Hyundai Hope 042E",
+            "marks_and_nos": "TECH-BR-2023-01",
+            "items": [
+                {
+                    "description": "Electronic Parts",
+                    "quantity": 1000,
+                    "net_weight": 7200,
+                    "gross_weight": 8500,
+                    "measurement": 45
+                }
+            ],
+            "total_quantity": 1000,
+            "total_net_weight": 7200,
+            "total_gross_weight": 8500,
+            "total_measurement": 45,
+            "is_signed": true
+        }
+    }
+}

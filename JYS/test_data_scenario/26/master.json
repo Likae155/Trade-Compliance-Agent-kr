@@ -1,0 +1,234 @@
+{
+    "transaction_id": "SK-BRA-2024-8842X",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "Hyundai Robotics Precision",
+                "addr": "123 Techno-ro, Seo-gu, Incheon, South Korea",
+                "country": "South Korea",
+                "reg_no": "110-81-22445",
+                "contact_person": "Mr. Min-ho Park",
+                "email": "m.park@hyundai-robotics.kr"
+            },
+            "importer": {
+                "name": "Industria Automotiva do Brasil Ltda",
+                "addr": "Av. Paulista, 1000, Sao Paulo, SP, 01310-100, Brazil",
+                "country": "Brazil",
+                "tax_id": "CNPJ 12.345.678/0001-99",
+                "contact_person": "Ricardo Souza"
+            },
+            "notify_party": {
+                "name": "Logistics Express Brazil S.A.",
+                "addr": "Rua da Alfandega, 50, Santos, SP, Brazil",
+                "contact": "Logistics Ops Team"
+            }
+        },
+        "logistics": {
+            "mode": "SEA",
+            "port_loading": {
+                "name": "Incheon Port",
+                "un_locode": "KRICN"
+            },
+            "port_discharge": {
+                "name": "Port of Santos",
+                "un_locode": "BRSSZ"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "HYUNDAI PROGRESS",
+            "voyage_no": "V.042W",
+            "carrier": "HMM Co., Ltd.",
+            "container_details": {
+                "type": "40FT HC",
+                "no": "HMMU1234567",
+                "seal_no": "SEAL-998877"
+            },
+            "packaging": {
+                "type": "Wooden Crates",
+                "quantity": 10,
+                "dimensions_per_pkg": "200 x 150 x 180 cm"
+            },
+            "weight": {
+                "gross": 8500,
+                "net": 7200,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 54,
+                "unit": "CBM"
+            }
+        },
+        "product": {
+            "name": "Industrial Robotic Arms",
+            "brand_model": "HYUNDAI-ROBO-X500",
+            "hs_code": "847950",
+            "origin": "South Korea",
+            "unit_price": 50000,
+            "quantity": 5,
+            "total_amount": 250000,
+            "currency": "USD",
+            "marks_numbers": "IAB-SAO-001/005"
+        },
+        "banking_details": {
+            "beneficiary_bank": "Hana Bank, Incheon Branch",
+            "swift_code": "HNKRKRSE",
+            "account_no": "123-45678-90123",
+            "bank_address": "Incheon, South Korea",
+            "issuing_bank": "Banco do Brasil S.A."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At Sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "Korean Commercial Code",
+            "arbitration_place": "Seoul",
+            "additional_notes": "Compliance Alert: Check Foreign Exchange Transactions Act Article 16 regarding non-resident netting obligations."
+        },
+        "dates": {
+            "contract_date": "2024-05-10",
+            "lc_issue_date": "2024-05-15",
+            "latest_shipment_date": "2024-06-30",
+            "bl_date": "2024-07-02",
+            "lc_expiry_date": "2024-07-15",
+            "invoice_date": "2024-06-25"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "CTR-2024-001",
+            "date": "2024-05-10",
+            "seller": {
+                "name": "Hyundai Robotics"
+            },
+            "buyer": {
+                "name": "Industria Automotiva"
+            },
+            "shipment_deadline": "2024-06-30",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arm",
+                    "brand_model": "HYUNDAI-ROBO-X500",
+                    "hs_code": "847950",
+                    "quantity": 5,
+                    "unit_price": 50000,
+                    "amount": 250000
+                }
+            ],
+            "total_amount": 250000,
+            "currency": "USD",
+            "payment_terms": "L/C At Sight",
+            "incoterms": "CIF",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "LCS-1122334455",
+            "issuing_bank": "Banco do Brasil",
+            "advising_bank": "Hana Bank",
+            "issue_date": "2024-05-15",
+            "expiry_date": "2024-07-15",
+            "applicant": {
+                "name": "Industria Automotiva"
+            },
+            "beneficiary": {
+                "name": "Hyundai Robotics"
+            },
+            "amount": 250000,
+            "currency": "USD",
+            "tolerance_percentage": "0",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "Hana Bank",
+            "draft_at": "At Sight",
+            "description_of_goods": "Industrial Robotic Arms",
+            "documents_required": [
+                "Bill of Lading",
+                "Commercial Invoice",
+                "Packing List"
+            ],
+            "additional_conditions": [
+                "Shipment must be effected by 2024-06-30"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMM-SAO-778899",
+            "shipper": {
+                "name": "Hyundai Robotics"
+            },
+            "consignee": "TO THE ORDER OF Banco do Brasil S.A.",
+            "notify_party": {
+                "name": "Industria Automotiva"
+            },
+            "vessel_name": "HYUNDAI PROGRESS",
+            "voyage_no": "V.042W",
+            "port_of_loading": "KRICN",
+            "port_of_discharge": "BRSSZ",
+            "container_seal_no": "SEAL-998877",
+            "marks_and_nos": "IAB-SAO-001/005",
+            "description_of_goods": "Industrial Robotic Arms",
+            "total_pkgs": 10,
+            "gross_weight": 8500,
+            "measurement": 54,
+            "freight_term": "PREPAID",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2024-07-02",
+            "place_of_issue": "Incheon",
+            "signed_by": "Authorized Signatory",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "INV-2024-001",
+            "date": "2024-06-25",
+            "seller": {
+                "name": "Hyundai Robotics"
+            },
+            "buyer": {
+                "name": "Industria Automotiva"
+            },
+            "transport_details": "HYUNDAI PROGRESS V.042W",
+            "payment_info": "L/C 250000 USD",
+            "marks_and_nos": "IAB-SAO-001/005",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arm",
+                    "brand_model": "HYUNDAI-ROBO-X500",
+                    "quantity": 5,
+                    "unit_price": 50000,
+                    "total": 250000
+                }
+            ],
+            "total_amount": 250000,
+            "currency": "USD",
+            "incoterms": "CIF",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": "Document shows shipment date 2024-07-02, which violates the L/C latest shipment date of 2024-06-30."
+        },
+        "pl": {
+            "pl_no": "PL-2024-001",
+            "date": "2024-06-25",
+            "seller": {
+                "name": "Hyundai Robotics"
+            },
+            "buyer": {
+                "name": "Industria Automotiva"
+            },
+            "invoice_ref_no": "INV-2024-001",
+            "transport_details": "HYUNDAI PROGRESS",
+            "marks_and_nos": "IAB-SAO-001/005",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arm",
+                    "quantity": 5,
+                    "net_weight": 7200,
+                    "gross_weight": 8500,
+                    "measurement": 54
+                }
+            ],
+            "total_quantity": 5,
+            "total_net_weight": 7200,
+            "total_gross_weight": 8500,
+            "total_measurement": 54,
+            "is_signed": true
+        }
+    }
+}

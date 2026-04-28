@@ -1,0 +1,256 @@
+{
+    "transaction_id": "SK-BRA-2023-8849-X",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "Hyundai Robotics Systems Co., Ltd.",
+                "addr": "123, Robot Industry-ro, Daegu, South Korea",
+                "country": "South Korea",
+                "reg_no": "110-81-22944",
+                "contact_person": "Mr. Kim Min-su",
+                "email": "ms.kim@hyundai-robotics.kr"
+            },
+            "importer": {
+                "name": "Industrial Automacao Ltda",
+                "addr": "Av. Paulista 1000, Sao Paulo, Brazil",
+                "country": "Brazil",
+                "tax_id": "CNPJ 12.345.678/0001-99",
+                "contact_person": "Maria Ferreira"
+            },
+            "notify_party": {
+                "name": "Industrial Automacao Ltda",
+                "addr": "Av. Paulista 1000, Sao Paulo, Brazil",
+                "contact": "Logistics Dept"
+            }
+        },
+        "logistics": {
+            "mode": "SEA",
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Port of Santos",
+                "un_locode": "BRSSZ"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "Hyundai Vanguard",
+            "voyage_no": "V.092N",
+            "carrier": "HMM Co., Ltd.",
+            "container_details": {
+                "type": "40ft High Cube",
+                "no": "HMMU1234567",
+                "seal_no": "KR-88291"
+            },
+            "packaging": {
+                "type": "Wooden Crates",
+                "quantity": 12,
+                "dimensions_per_pkg": "200 x 150 x 180 cm"
+            },
+            "weight": {
+                "gross": 8500,
+                "net": 7200,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 36.5,
+                "unit": "CBM"
+            }
+        },
+        "product": {
+            "name": "Industrial Robotics Equipment",
+            "brand_model": "Hyundai-Robot-AR4",
+            "hs_code": "847950",
+            "origin": "South Korea",
+            "unit_price": 50000,
+            "quantity": 2,
+            "total_amount": 100000,
+            "currency": "USD",
+            "marks_numbers": "IA/BRA/001-012"
+        },
+        "banking_details": {
+            "beneficiary_bank": "Woori Bank, Seoul Branch",
+            "swift_code": "WOBKRSE",
+            "account_no": "1002-888-999000",
+            "bank_address": "Sogong-ro, Jung-gu, Seoul",
+            "issuing_bank": "Banco do Brasil S.A."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At Sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "CISG",
+            "arbitration_place": "Singapore International Arbitration Centre",
+            "additional_notes": "Compliance Risk: Contract contains clause exempting seller from liability for damages, potentially conflicting with CISG Article 4 and K-Law regulations."
+        },
+        "dates": {
+            "contract_date": "2023-10-01",
+            "lc_issue_date": "2023-10-10",
+            "latest_shipment_date": "2023-11-15",
+            "bl_date": "2023-11-17",
+            "lc_expiry_date": "2023-11-30",
+            "invoice_date": "2023-11-05"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "HY-2023-BR-001",
+            "date": "2023-10-01",
+            "seller": {
+                "name": "Hyundai Robotics"
+            },
+            "buyer": {
+                "name": "Industrial Automacao"
+            },
+            "shipment_deadline": "2023-11-15",
+            "items": [
+                {
+                    "description": "Welding Robot Arm",
+                    "brand_model": "AR4-W",
+                    "hs_code": "847950",
+                    "quantity": 1,
+                    "unit_price": 55000,
+                    "amount": 55000
+                },
+                {
+                    "description": "Control Unit",
+                    "brand_model": "CU-400",
+                    "hs_code": "853710",
+                    "quantity": 1,
+                    "unit_price": 45000,
+                    "amount": 45000
+                }
+            ],
+            "total_amount": 100000,
+            "currency": "USD",
+            "payment_terms": "L/C AT SIGHT",
+            "incoterms": "CIF",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "BBS-77721",
+            "issuing_bank": "Banco do Brasil",
+            "advising_bank": "Woori Bank",
+            "issue_date": "2023-10-10",
+            "expiry_date": "2023-11-30",
+            "applicant": {
+                "name": "Industrial Automacao"
+            },
+            "beneficiary": {
+                "name": "Hyundai Robotics"
+            },
+            "amount": 100000,
+            "currency": "USD",
+            "tolerance_percentage": "0%",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "ANY BANK BY SIGHT",
+            "draft_at": "AT SIGHT",
+            "description_of_goods": "Industrial Robots as per Contract HY-2023-BR-001",
+            "documents_required": [
+                "Invoice",
+                "B/L",
+                "Packing List"
+            ],
+            "additional_conditions": [
+                "Full set of documents required"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMM-B-998877",
+            "shipper": {
+                "name": "Hyundai Robotics"
+            },
+            "consignee": "TO THE ORDER OF Banco do Brasil S.A.",
+            "notify_party": {
+                "name": "Industrial Automacao"
+            },
+            "vessel_name": "Hyundai Vanguard",
+            "voyage_no": "V.092N",
+            "port_of_loading": "KRPUS",
+            "port_of_discharge": "BRSSZ",
+            "container_seal_no": "KR-88291",
+            "marks_and_nos": "IA/BRA/001-012",
+            "description_of_goods": "Industrial Robots",
+            "total_pkgs": 12,
+            "gross_weight": 8500,
+            "measurement": 36.5,
+            "freight_term": "PREPAID",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2023-11-17",
+            "place_of_issue": "Seoul, Korea",
+            "signed_by": "Authorized Signatory",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "INV-2023-001",
+            "date": "2023-11-05",
+            "seller": {
+                "name": "Hyundai Robotics"
+            },
+            "buyer": {
+                "name": "Industrial Automacao"
+            },
+            "transport_details": "Hyundai Vanguard",
+            "payment_info": "L/C BBS-77721",
+            "marks_and_nos": "IA/BRA/001-012",
+            "items": [
+                {
+                    "description": "Welding Robot Arm",
+                    "brand_model": "AR4-W",
+                    "quantity": 1,
+                    "unit_price": 55000,
+                    "total": 55000
+                },
+                {
+                    "description": "Control Unit",
+                    "brand_model": "CU-400",
+                    "quantity": 1,
+                    "unit_price": 45000,
+                    "total": 45000
+                }
+            ],
+            "total_amount": 100000,
+            "currency": "USD",
+            "incoterms": "CIF",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": "Documentary Discrepancy: BL date (2023-11-17) is later than LC latest shipment date (2023-11-15)."
+        },
+        "pl": {
+            "pl_no": "PL-2023-001",
+            "date": "2023-11-05",
+            "seller": {
+                "name": "Hyundai Robotics"
+            },
+            "buyer": {
+                "name": "Industrial Automacao"
+            },
+            "invoice_ref_no": "INV-2023-001",
+            "transport_details": "Hyundai Vanguard",
+            "marks_and_nos": "IA/BRA/001-012",
+            "items": [
+                {
+                    "description": "Welding Robot Arm",
+                    "quantity": 1,
+                    "net_weight": 3600,
+                    "gross_weight": 4250,
+                    "measurement": 18.25
+                },
+                {
+                    "description": "Control Unit",
+                    "quantity": 1,
+                    "net_weight": 3600,
+                    "gross_weight": 4250,
+                    "measurement": 18.25
+                }
+            ],
+            "total_quantity": 2,
+            "total_net_weight": 7200,
+            "total_gross_weight": 8500,
+            "total_measurement": 36.5,
+            "is_signed": true
+        }
+    }
+}

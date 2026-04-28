@@ -1,0 +1,199 @@
+{
+    "transaction_id": "SK-SG-2026-CISG-9905",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "K-STEEL INFRASTRUCTURE LTD.",
+                "addr": "150, Marine-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do, 37885",
+                "country": "South Korea",
+                "reg_no": "506-81-22440",
+                "contact_person": "Do-yoon Kim",
+                "email": "dykim@ksteelinfra.co.kr"
+            },
+            "importer": {
+                "name": "SINGAPORE PORT CONSTRUCTIONS PTE LTD.",
+                "addr": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
+                "country": "Singapore",
+                "tax_id": "UEN 201822334K",
+                "contact_person": "Lee Wei Kiat"
+            },
+            "notify_party": {
+                "name": "PSA SINGAPORE TERMINALS",
+                "addr": "1 Harbour Drive, Singapore",
+                "contact": "+65-6274-7111"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Singapore Port",
+                "un_locode": "SGSIN"
+            },
+            "incoterms": "CFR",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "HYUNDAI SPEED",
+            "voyage_no": "SG-220W",
+            "carrier": "HMM CO., LTD.",
+            "container_details": {
+                "type": "40ft Flat Rack",
+                "no": "HMMU1122339",
+                "seal_no": "KRSG2610"
+            },
+            "packaging": {
+                "type": "Steel Bundles",
+                "quantity": 25,
+                "dimensions_per_pkg": "1200 x 50 x 50 cm"
+            },
+            "weight": {
+                "gross": 45500.0,
+                "net": 44800.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 30.5,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "HIGH-TENSILE REINFORCING STEEL BARS",
+            "brand_model": "K-BEAM GRADE 500",
+            "hs_code": "7214.20",
+            "origin": "South Korea",
+            "unit_price": 800.0,
+            "quantity": 250,
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "marks_numbers": "SPC/SIN/REBAR-01-25"
+        },
+        "banking_details": {
+            "beneficiary_bank": "SHINHAN BANK",
+            "swift_code": "SHBKKRSE",
+            "account_no": "110-334-009988",
+            "bank_address": "20, Sejong-daero 9-gil, Jung-gu, Seoul",
+            "issuing_bank": "DBS BANK LTD."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Allowed",
+            "transhipment": "Prohibited",
+            "governing_law": "The laws of the Republic of Korea",
+            "arbitration_place": "Singapore"
+        },
+        "dates": {
+            "contract_date": "2026-03-20",
+            "lc_issue_date": "2026-04-05",
+            "latest_shipment_date": "2026-05-15",
+            "bl_date": "2026-05-10",
+            "lc_expiry_date": "2026-05-30",
+            "invoice_date": "2026-05-05"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "KS-SPC-2026-05",
+            "date": "2026-03-20",
+            "seller": {
+                "name": "K-STEEL INFRASTRUCTURE LTD."
+            },
+            "buyer": {
+                "name": "SINGAPORE PORT CONSTRUCTIONS PTE LTD."
+            },
+            "shipment_deadline": "2026-05-15",
+            "items": [
+                {
+                    "description": "K-BEAM GRADE 500 STEEL BARS",
+                    "hs_code": "7214.20",
+                    "quantity": 250,
+                    "unit_price": 800.0,
+                    "amount": 200000.0,
+                    "brand_model": "K-BEAM GRADE 500"
+                }
+            ],
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "CFR SINGAPORE (INCOTERMS 2020)",
+            "is_signed": true,
+            "risky_clauses": [
+                "Clause 18 (Governing Law): This Contract shall be governed by and construed in accordance with the laws of the Republic of Korea. (Note: No explicit exclusion of CISG is provided.)",
+                "Clause 12.4 (Exemption for Delay): The Seller shall be held harmless and fully exempt from any liability or liquidated damages arising from delays in delivery caused by changes in vessel schedules, port congestion, or carrier-related issues, which shall be deemed as unconditional force majeure events."
+            ]
+        },
+        "lc": {
+            "lc_no": "DBS2026SG445",
+            "issuing_bank": "DBS BANK LTD., SINGAPORE",
+            "advising_bank": "SHINHAN BANK, SEOUL",
+            "issue_date": "2026-04-05",
+            "expiry_date": "2026-05-30",
+            "applicant": {
+                "name": "SINGAPORE PORT CONSTRUCTIONS PTE LTD."
+            },
+            "beneficiary": {
+                "name": "K-STEEL INFRASTRUCTURE LTD."
+            },
+            "amount": 200000.0,
+            "currency": "USD",
+            "description_of_goods": "250 MT HIGH-TENSILE REINFORCING STEEL BARS. CFR SINGAPORE.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE",
+                "FULL SET CLEAN ON BOARD BILL OF LADING",
+                "PACKING LIST",
+                "MILL TEST CERTIFICATE"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMMBUSSIN2605",
+            "shipper": {
+                "name": "K-STEEL INFRASTRUCTURE LTD."
+            },
+            "consignee": "TO THE ORDER OF DBS BANK LTD.",
+            "vessel_name": "HYUNDAI SPEED",
+            "voyage_no": "SG-220W",
+            "port_of_loading": "BUSAN PORT, KOREA",
+            "port_of_discharge": "SINGAPORE PORT",
+            "shipped_on_board_date": "2026-05-10",
+            "signed_by": "HMM CO., LTD.",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "KSI-INV-20260505",
+            "date": "2026-05-05",
+            "seller": {
+                "name": "K-STEEL INFRASTRUCTURE LTD."
+            },
+            "buyer": {
+                "name": "SINGAPORE PORT CONSTRUCTIONS PTE LTD."
+            },
+            "items": [
+                {
+                    "description": "K-BEAM GRADE 500 STEEL BARS",
+                    "qty": 250,
+                    "unit_price": 800.0,
+                    "total": 200000.0,
+                    "brand_model": "K-BEAM GRADE 500"
+                }
+            ],
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "discrepancy_note": "LEGAL RISK: Clause 18 fails to explicitly exclude the UN Convention on Contracts for the International Sale of Goods (CISG). Since both Korea and Singapore are contracting states, CISG applies automatically as part of 'Korean Law', potentially overriding domestic civil/commercial codes. Clause 12.4 is also highly predatory, as it attempts to bypass the 'foreseeability' requirement for force majeure under CISG Art 79 by granting unconditional immunity for carrier-related delays.",
+            "has_shipped_stamp": true
+        },
+        "pl": {
+            "pl_no": "KSI-PL-20260505",
+            "date": "2026-05-05",
+            "seller": {
+                "name": "K-STEEL INFRASTRUCTURE LTD."
+            },
+            "buyer": {
+                "name": "SINGAPORE PORT CONSTRUCTIONS PTE LTD."
+            },
+            "total_gross_weight": 45500.0,
+            "is_signed": true
+        }
+    }
+}

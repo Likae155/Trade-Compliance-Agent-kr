@@ -1,0 +1,256 @@
+{
+    "transaction_id": "KR-BR-2024-8842-X",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "Hyundai Robotics Systems",
+                "addr": "123 Techno-ro, Seo-gu, Incheon, South Korea",
+                "country": "South Korea",
+                "reg_no": "110-81-22934",
+                "contact_person": "Min-ho Park",
+                "email": "m.park@hyundai-robotics.kr"
+            },
+            "importer": {
+                "name": "Industria Automotiva S.A.",
+                "addr": "Av. Paulista 1000, Sao Paulo, SP, Brazil",
+                "country": "Brazil",
+                "tax_id": "CNPJ 12.345.678/0001-99",
+                "contact_person": "Ricardo Silva"
+            },
+            "notify_party": {
+                "name": "Logistica Trans-Oceanica Ltda",
+                "addr": "Porto de Santos, SP, Brazil",
+                "contact": "Logistics Desk"
+            }
+        },
+        "logistics": {
+            "mode": "SEA",
+            "port_loading": {
+                "name": "Busan New Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Porto de Santos",
+                "un_locode": "BRSSZ"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "HYUNDAI PROGRESS",
+            "voyage_no": "V.092S",
+            "carrier": "HMM Co., Ltd.",
+            "container_details": {
+                "type": "40ft HC",
+                "no": "HMMU1234567",
+                "seal_no": "KR-998877"
+            },
+            "packaging": {
+                "type": "Wooden Crates",
+                "quantity": 10,
+                "dimensions_per_pkg": "200 x 150 x 180 cm"
+            },
+            "weight": {
+                "gross": 15500,
+                "net": 14200,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 85,
+                "unit": "CBM"
+            }
+        },
+        "product": {
+            "name": "Industrial Robotic Arms",
+            "brand_model": "HYUNDAI-ROBO-X500",
+            "hs_code": "842890",
+            "origin": "South Korea",
+            "unit_price": 45000,
+            "quantity": 5,
+            "total_amount": 225000,
+            "currency": "USD",
+            "marks_numbers": "IAS-SP-BR / 1-10"
+        },
+        "banking_details": {
+            "beneficiary_bank": "Hana Bank, Busan Branch",
+            "swift_code": "HNKRKRSE",
+            "account_no": "123-456789-0123",
+            "bank_address": "Busan, South Korea",
+            "issuing_bank": "Banco do Brasil S.A."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "Sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "Korean Commercial Code",
+            "arbitration_place": "Seoul",
+            "additional_notes": "Compliance Risk: Contract contains a 5-month limitation of action (statute of limitations) which is void under KCC Art 64 (min 6 months) and Civil Code Art 184."
+        },
+        "dates": {
+            "contract_date": "2024-01-10",
+            "lc_issue_date": "2024-02-01",
+            "latest_shipment_date": "2024-03-15",
+            "bl_date": "2024-03-16",
+            "lc_expiry_date": "2024-04-15",
+            "invoice_date": "2024-03-10"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "CTR-2024-001",
+            "date": "2024-01-10",
+            "seller": {
+                "name": "Hyundai Robotics Systems"
+            },
+            "buyer": {
+                "name": "Industria Automotiva S.A."
+            },
+            "shipment_deadline": "2024-03-15",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arms",
+                    "brand_model": "HYUNDAI-ROBO-X500",
+                    "hs_code": "842890",
+                    "quantity": 5,
+                    "unit_price": 45000,
+                    "amount": 225000
+                },
+                {
+                    "description": "Controller Units",
+                    "brand_model": "HYUNDAI-CTRL-V2",
+                    "hs_code": "853710",
+                    "quantity": 5,
+                    "unit_price": 5000,
+                    "amount": 25000
+                }
+            ],
+            "total_amount": 250000,
+            "currency": "USD",
+            "payment_terms": "L/C",
+            "incoterms": "CIF",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "LCR-BR-8842",
+            "issuing_bank": "Banco do Brasil S.A.",
+            "advising_bank": "Hana Bank",
+            "issue_date": "2024-02-01",
+            "expiry_date": "2024-04-15",
+            "applicant": {
+                "name": "Industria Automotiva S.A."
+            },
+            "beneficiary": {
+                "name": "Hyundai Robotics Systems"
+            },
+            "amount": 250000,
+            "currency": "USD",
+            "tolerance_percentage": "0",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "Hana Bank",
+            "draft_at": "Sight",
+            "description_of_goods": "Industrial Robotics and Controllers",
+            "documents_required": [
+                "Full set of B/L",
+                "Commercial Invoice",
+                "Packing List"
+            ],
+            "additional_conditions": [
+                "Statute of limitations restricted to 5 months"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMM-SA-00123",
+            "shipper": {
+                "name": "Hyundai Robotics Systems"
+            },
+            "consignee": "TO THE ORDER OF Banco do Brasil S.A.",
+            "notify_party": {
+                "name": "Industria Automotiva S.A."
+            },
+            "vessel_name": "HYUNDAI PROGRESS",
+            "voyage_no": "V.092S",
+            "port_of_loading": "Busan, South Korea",
+            "port_of_discharge": "Santos, Brazil",
+            "container_seal_no": "KR-998877",
+            "marks_and_nos": "IAS-SP-BR",
+            "description_of_goods": "Industrial Robotic Arms and Control Units",
+            "total_pkgs": 10,
+            "gross_weight": 15500,
+            "measurement": 85,
+            "freight_term": "PREPAID",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2024-03-16",
+            "place_of_issue": "Busan, South Korea",
+            "signed_by": "Authorized Signatory HMM",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "INV-2024-001",
+            "date": "2024-03-10",
+            "seller": {
+                "name": "Hyundai Robotics Systems"
+            },
+            "buyer": {
+                "name": "Industria Automotiva S.A."
+            },
+            "transport_details": "HYUNDAI PROGRESS V.092S",
+            "payment_info": "Bank Transfer to Hana Bank",
+            "marks_and_nos": "IAS-SP-BR",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arms",
+                    "brand_model": "HYUNDAI-ROBO-X500",
+                    "quantity": 5,
+                    "unit_price": 45000,
+                    "total": 225000
+                },
+                {
+                    "description": "Controller Units",
+                    "brand_model": "HYUNDAI-CTRL-V2",
+                    "quantity": 5,
+                    "unit_price": 5000,
+                    "total": 25000
+                }
+            ],
+            "total_amount": 250000,
+            "currency": "USD",
+            "incoterms": "CIF",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": "LATE SHIPMENT: B/L date 2024-03-16 exceeds L/C latest shipment date of 2024-03-15."
+        },
+        "pl": {
+            "pl_no": "PL-2024-001",
+            "date": "2024-03-10",
+            "seller": {
+                "name": "Hyundai Robotics Systems"
+            },
+            "buyer": {
+                "name": "Industria Automotiva S.A."
+            },
+            "invoice_ref_no": "INV-2024-001",
+            "transport_details": "HYUNDAI PROGRESS",
+            "marks_and_nos": "IAS-SP-BR",
+            "items": [
+                {
+                    "description": "Robotic Arms in Crate",
+                    "quantity": 5,
+                    "net_weight": 10000,
+                    "gross_weight": 11000,
+                    "measurement": 60
+                },
+                {
+                    "description": "Controllers in Crate",
+                    "quantity": 5,
+                    "net_weight": 4200,
+                    "gross_weight": 4500,
+                    "measurement": 25
+                }
+            ],
+            "total_quantity": 10,
+            "total_net_weight": 14200,
+            "total_gross_weight": 15500,
+            "total_measurement": 85,
+            "is_signed": true
+        }
+    }
+}

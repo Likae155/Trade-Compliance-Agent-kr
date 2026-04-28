@@ -1,0 +1,240 @@
+{
+    "transaction_id": "SK-IL-2026-IP-0041",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "K-BIO GENE THERAPEUTICS LTD.",
+                "addr": "21, Bio-ro, Yeonsu-gu, Incheon, 21984",
+                "country": "South Korea",
+                "reg_no": "131-81-44556",
+                "contact_person": "Dr. Min-jae Song",
+                "email": "mjsong@kbiogene.co.kr"
+            },
+            "importer": {
+                "name": "TEL AVIV PHARMA-TECH LTD.",
+                "addr": "14 HaBarzel St, Ramat HaChayal, Tel Aviv 69710",
+                "country": "Israel",
+                "tax_id": "VAT 512345678",
+                "contact_person": "Ariel Katz"
+            },
+            "notify_party": {
+                "name": "ISRAEL GLOBAL LOGISTICS SOLUTIONS",
+                "addr": "Ashdod Port Terminal 3, Ashdod",
+                "contact": "+972-3-765-4321"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Incheon Port",
+                "un_locode": "KRINC"
+            },
+            "port_discharge": {
+                "name": "Port of Ashdod",
+                "un_locode": "ILASH"
+            },
+            "incoterms": "CPT",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "ZIM LUANDA",
+            "voyage_no": "018W",
+            "carrier": "ZIM INTEGRATED SHIPPING SERVICES",
+            "container_details": {
+                "type": "20ft REEFER",
+                "no": "ZIMU7766554",
+                "seal_no": "IL998822"
+            },
+            "packaging": {
+                "type": "Validated Cold-Chain Boxes",
+                "quantity": 50,
+                "dimensions_per_pkg": "60 x 60 x 80 cm"
+            },
+            "weight": {
+                "gross": 2400.0,
+                "net": 1800.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 14.4,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "RECOMBINANT PROTEIN REAGENTS",
+            "brand_model": "GENE-SYNC PRO X",
+            "hs_code": "3822.19",
+            "origin": "South Korea",
+            "unit_price": 7500.0,
+            "quantity": 50,
+            "total_amount": 375000.0,
+            "currency": "USD",
+            "marks_numbers": "TAP/ASH/01-50/COLD"
+        },
+        "banking_details": {
+            "beneficiary_bank": "SHINHAN BANK",
+            "swift_code": "SHBKKRSE",
+            "account_no": "110-334-998877",
+            "bank_address": "20, Sejong-daero 9-gil, Jung-gu, Seoul",
+            "issuing_bank": "BANK HAPOALIM B.M."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "CISG",
+            "arbitration_place": "Tel Aviv, Israel"
+        },
+        "dates": {
+            "contract_date": "2026-03-10",
+            "lc_issue_date": "2026-03-25",
+            "latest_shipment_date": "2026-04-20",
+            "bl_date": "2026-04-15",
+            "lc_expiry_date": "2026-05-10",
+            "invoice_date": "2026-04-12"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "KB-TAP-2026-IP",
+            "date": "2026-03-10",
+            "seller": {
+                "name": "K-BIO GENE THERAPEUTICS LTD."
+            },
+            "buyer": {
+                "name": "TEL AVIV PHARMA-TECH LTD."
+            },
+            "shipment_deadline": "2026-04-20",
+            "items": [
+                {
+                    "description": "GENE-SYNC PRO X PROTEIN REAGENTS",
+                    "hs_code": "3822.19",
+                    "quantity": 50,
+                    "unit_price": 7500.0,
+                    "amount": 375000.0,
+                    "brand_model": "GENE-SYNC PRO X"
+                }
+            ],
+            "total_amount": 375000.0,
+            "currency": "USD",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "CPT TEL AVIV (INCOTERMS 2020)",
+            "is_signed": true,
+            "risky_clauses": [
+                "Clause 9.4 (IP Warranty Disclaimer): Seller provides the goods on an 'as-is' basis regarding intellectual property. Seller expressly disclaims all liability for any infringement of third-party patents or trademarks in Israel or elsewhere, superseding CISG Article 42.",
+                "Clause 15.2 (Technical Documentation): Seller shall provide detailed genetic sequence data and manufacturing protocols for customs and quality audit. No provision for return or destruction of data upon termination of contract is included."
+            ]
+        },
+        "lc": {
+            "lc_no": "HAPO2026IL992",
+            "issuing_bank": "BANK HAPOALIM B.M., TEL AVIV",
+            "advising_bank": "SHINHAN BANK, SEOUL",
+            "issue_date": "2026-03-25",
+            "expiry_date": "2026-05-10",
+            "applicant": {
+                "name": "TEL AVIV PHARMA-TECH LTD."
+            },
+            "beneficiary": {
+                "name": "K-BIO GENE THERAPEUTICS LTD."
+            },
+            "amount": 375000.0,
+            "currency": "USD",
+            "tolerance_percentage": "NIL",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "SHINHAN BANK BY NEGOTIATION",
+            "draft_at": "AT SIGHT",
+            "description_of_goods": "GENE-SYNC PRO X PROTEIN REAGENTS. CPT TEL AVIV. COLD-CHAIN MAINTAINED AT 2-8 DEGREES CELSIUS.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE IN 3 COPIES",
+                "FULL SET 3/3 CLEAN ON BOARD OCEAN BILL OF LADING MADE OUT TO THE ORDER OF BANK HAPOALIM B.M. MARKED FREIGHT PREPAID",
+                "PACKING LIST IN 3 COPIES INDICATING BATCH NUMBERS",
+                "INSURANCE POLICY COVERING 110 PERCENT OF INVOICE VALUE",
+                "TEMPERATURE LOG REPORT FOR DURATION OF TRANSIT"
+            ],
+            "additional_conditions": [
+                "ALL DOCUMENTS MUST QUOTE L/C NUMBER HAPO2026IL992",
+                "DISCREPANCY FEE USD 150"
+            ]
+        },
+        "bl": {
+            "bl_no": "ZIMUINC0088221",
+            "shipper": {
+                "name": "K-BIO GENE THERAPEUTICS LTD."
+            },
+            "consignee": "TO THE ORDER OF BANK HAPOALIM B.M.",
+            "notify_party": {
+                "name": "TEL AVIV PHARMA-TECH LTD."
+            },
+            "vessel_name": "ZIM LUANDA",
+            "voyage_no": "018W",
+            "port_of_loading": "INCHEON PORT, KOREA",
+            "port_of_discharge": "PORT OF ASHDOD, ISRAEL",
+            "container_seal_no": "ZIMU7766554 / IL998822",
+            "marks_and_nos": "TAP/ASH/01-50/COLD",
+            "description_of_goods": "20FT REEFER FCL STC: 50 COLD-CHAIN BOXES GENE-SYNC PRO X",
+            "total_pkgs": 50,
+            "gross_weight": 2400.0,
+            "measurement": 14.4,
+            "freight_term": "Freight Prepaid",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2026-04-15",
+            "place_of_issue": "INCHEON, KOREA",
+            "signed_by": "ZIM INTEGRATED SHIPPING SERVICES",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "KBG-INV-20260412",
+            "date": "2026-04-12",
+            "seller": {
+                "name": "K-BIO GENE THERAPEUTICS LTD."
+            },
+            "buyer": {
+                "name": "TEL AVIV PHARMA-TECH LTD."
+            },
+            "transport_details": "ZIM LUANDA V.018W | INCHEON TO ASHDOD",
+            "payment_info": "L/C HAPO2026IL992",
+            "marks_and_nos": "TAP/ASH/01-50/COLD",
+            "items": [
+                {
+                    "description": "GENE-SYNC PRO X RECOMBINANT PROTEIN REAGENTS",
+                    "qty": 50,
+                    "unit_price": 7500.0,
+                    "total": 375000.0,
+                    "brand_model": "GENE-SYNC PRO X"
+                }
+            ],
+            "total_amount": 375000.0,
+            "currency": "USD",
+            "incoterms": "CPT TEL AVIV",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": ""
+        },
+        "pl": {
+            "pl_no": "KBG-PL-20260412",
+            "date": "2026-04-12",
+            "seller": {
+                "name": "K-BIO GENE THERAPEUTICS LTD."
+            },
+            "buyer": {
+                "name": "TEL AVIV PHARMA-TECH LTD."
+            },
+            "invoice_ref_no": "KBG-INV-20260412",
+            "transport_details": "ZIM LUANDA V.018W",
+            "marks_and_nos": "TAP/ASH/01-50/COLD",
+            "items": [
+                {
+                    "description": "GENE-SYNC PRO X RECOMBINANT PROTEIN REAGENTS",
+                    "quantity": 50,
+                    "net_weight": 1800.0,
+                    "gross_weight": 2400.0,
+                    "measurement": 14.4
+                }
+            ],
+            "total_quantity": 50,
+            "total_net_weight": 1800.0,
+            "total_gross_weight": 2400.0,
+            "total_measurement": 14.4,
+            "is_signed": true
+        }
+    }
+}

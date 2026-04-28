@@ -1,0 +1,206 @@
+{
+    "transaction_id": "SK-JP-2026-SET-1509",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "K-ELECTRONIC COMPONENTS CO., LTD.",
+                "addr": "77, Digital-ro, Guro-gu, Seoul, 08390",
+                "country": "South Korea",
+                "reg_no": "113-81-22998",
+                "contact_person": "Min-kyu Kim",
+                "email": "mkkim@kelectro.kr"
+            },
+            "importer": {
+                "name": "TOKYO SMART TECH LTD.",
+                "addr": "2-3-1 Shinjuku, Shinjuku-ku, Tokyo 160-0022",
+                "country": "Japan",
+                "tax_id": "JP1234567890123",
+                "contact_person": "Hiroshi Tanaka"
+            },
+            "notify_party": {
+                "name": "KANTO LOGISTICS SERVICES",
+                "addr": "Yokohama Port Terminal 2, Yokohama",
+                "contact": "+81-45-667-8899"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Yokohama Port",
+                "un_locode": "JPYOK"
+            },
+            "incoterms": "FCA",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "PAN STAR DREAM",
+            "voyage_no": "PS2604E",
+            "carrier": "PAN STAR LINE",
+            "container_details": {
+                "type": "20ft FCL",
+                "no": "PSLU1122334",
+                "seal_no": "KRJP2026S5"
+            },
+            "packaging": {
+                "type": "Cartons on Pallets",
+                "quantity": 20,
+                "dimensions_per_pkg": "120 x 80 x 100 cm"
+            },
+            "weight": {
+                "gross": 4800.0,
+                "net": 4200.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 19.2,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "MULTILAYER CERAMIC CAPACITORS (MLCC)",
+            "brand_model": "K-CAP HI-CAP 100",
+            "hs_code": "8532.24",
+            "origin": "South Korea",
+            "unit_price": 0.5,
+            "quantity": 400000,
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "marks_numbers": "TST/YOK/01-20"
+        },
+        "banking_details": {
+            "beneficiary_bank": "SHINHAN BANK",
+            "swift_code": "SHBKKRSE",
+            "account_no": "110-334-112233",
+            "bank_address": "20, Sejong-daero 9-gil, Jung-gu, Seoul",
+            "issuing_bank": "MIZUHO BANK, LTD."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "Law of the Republic of Korea / Foreign Exchange Transactions Act",
+            "arbitration_place": "Seoul, South Korea"
+        },
+        "dates": {
+            "contract_date": "2026-03-05",
+            "lc_issue_date": "2026-03-20",
+            "latest_shipment_date": "2026-04-20",
+            "bl_date": "2026-04-12",
+            "lc_expiry_date": "2026-05-05",
+            "invoice_date": "2026-04-10"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "KE-TST-2026-015",
+            "date": "2026-03-05",
+            "seller": {
+                "name": "K-ELECTRONIC COMPONENTS CO., LTD."
+            },
+            "buyer": {
+                "name": "TOKYO SMART TECH LTD."
+            },
+            "shipment_deadline": "2026-04-20",
+            "items": [
+                {
+                    "description": "MLCC HI-CAP 100",
+                    "hs_code": "8532.24",
+                    "quantity": 400000,
+                    "unit_price": 0.5,
+                    "amount": 200000.0,
+                    "brand_model": "K-CAP HI-CAP 100"
+                }
+            ],
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "FCA BUSAN PORT",
+            "is_signed": true,
+            "special_conditions": "The parties agree to set-off (netting) the payment against the outstanding balance of Contract No. KE-TST-2025-099 ($50,000). The net amount of $150,000 shall be processed via L/C.",
+            "risky_clauses": [
+                "Clause 12.1 (Banking Charges): All banking charges including issuing bank's commissions and reimbursement fees are to be shared (SHA). However, the net payable amount under L/C must be exactly $200,000.00 without any deductions."
+            ]
+        },
+        "lc": {
+            "lc_no": "MIZU2026TOK001",
+            "issuing_bank": "MIZUHO BANK, LTD., TOKYO",
+            "advising_bank": "SHINHAN BANK, SEOUL",
+            "issue_date": "2026-03-20",
+            "expiry_date": "2026-05-05",
+            "applicant": {
+                "name": "TOKYO SMART TECH LTD."
+            },
+            "beneficiary": {
+                "name": "K-ELECTRONIC COMPONENTS CO., LTD."
+            },
+            "amount": 200000.0,
+            "currency": "USD",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "SHINHAN BANK BY NEGOTIATION",
+            "draft_at": "AT SIGHT",
+            "description_of_goods": "400,000 UNITS OF MLCC HI-CAP 100. FCA BUSAN.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE",
+                "FULL SET CLEAN ON BOARD BILL OF LADING",
+                "PACKING LIST"
+            ],
+            "additional_conditions": [
+                "BANKING CHARGES OUTSIDE JAPAN ARE FOR BENEFICIARY'S ACCOUNT. BANKING CHARGES INSIDE JAPAN ARE FOR APPLICANT'S ACCOUNT (SHA).",
+                "DISCREPANCY FEE USD 100"
+            ]
+        },
+        "bl": {
+            "bl_no": "PSLUPUSYOK26",
+            "shipper": {
+                "name": "K-ELECTRONIC COMPONENTS CO., LTD."
+            },
+            "consignee": "TO THE ORDER OF MIZUHO BANK, LTD.",
+            "vessel_name": "PAN STAR DREAM",
+            "voyage_no": "PS2604E",
+            "port_of_loading": "BUSAN PORT, KOREA",
+            "port_of_discharge": "YOKOHAMA, JAPAN",
+            "shipped_on_board_date": "2026-04-12",
+            "signed_by": "PAN STAR LINE",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "KEC-INV-0410",
+            "date": "2026-04-10",
+            "seller": {
+                "name": "K-ELECTRONIC COMPONENTS CO., LTD."
+            },
+            "buyer": {
+                "name": "TOKYO SMART TECH LTD."
+            },
+            "items": [
+                {
+                    "description": "MLCC HI-CAP 100",
+                    "qty": 400000,
+                    "unit_price": 0.5,
+                    "total": 200000.0,
+                    "brand_model": "K-CAP HI-CAP 100"
+                }
+            ],
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "discrepancy_note": "LEGAL RISK: The contract agrees on a 'Set-off (Netting)' of $50,000. Under the Foreign Exchange Transactions Act Article 16, such set-off arrangements must be reported to the Bank of Korea or a designated foreign exchange bank in advance. Absence of such report constitutes a violation. Also, while L/C terms specify SHA charges, any unilateral deduction of issuing bank's fees from the L/C proceeds contradicts UCP 600 Art 37.",
+            "has_shipped_stamp": true
+        },
+        "pl": {
+            "pl_no": "KEC-PL-0410",
+            "date": "2026-04-10",
+            "seller": {
+                "name": "K-ELECTRONIC COMPONENTS CO., LTD."
+            },
+            "buyer": {
+                "name": "TOKYO SMART TECH LTD."
+            },
+            "total_gross_weight": 4800.0,
+            "total_net_weight": 4200.0,
+            "is_signed": true
+        }
+    }
+}

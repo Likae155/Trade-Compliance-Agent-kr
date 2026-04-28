@@ -1,0 +1,7 @@
+[
+    {
+        "doc": "invoice",
+        "issue": "AI Noted Discrepancy",
+        "detail": "B/L date exceeds latest shipment date by 1 day"
+    }
+]

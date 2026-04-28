@@ -1,0 +1,239 @@
+{
+    "transaction_id": "SK-TR-2026-INSP-3302",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "HANKOOK TEXTILE MACHINERY CO., LTD.",
+                "addr": "55, Seongseogongdan-ro, Dalseo-gu, Daegu, 42718",
+                "country": "South Korea",
+                "reg_no": "502-81-66778",
+                "contact_person": "Ji-hoon Park",
+                "email": "export@hktextile.kr"
+            },
+            "importer": {
+                "name": "ISTANBUL FABRIC MILLS A.S.",
+                "addr": "OSB 3. Cadde No:12, Nilufer, Bursa 16140",
+                "country": "Turkey",
+                "tax_id": "VKN 4550123987",
+                "contact_person": "Emre Yilmaz"
+            },
+            "notify_party": {
+                "name": "MARMARA LOGISTICS GROUP",
+                "addr": "Ambarli Port Terminal, Istanbul",
+                "contact": "+90-212-665-4433"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Port of Ambarli",
+                "un_locode": "TRAMR"
+            },
+            "incoterms": "CFR",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "HMM RAON",
+            "voyage_no": "009W",
+            "carrier": "HMM CO., LTD.",
+            "container_details": {
+                "type": "40ft FCL (Open Top)",
+                "no": "HMMU8822995",
+                "seal_no": "TR2026Q4"
+            },
+            "packaging": {
+                "type": "Heavy Duty Pallets",
+                "quantity": 6,
+                "dimensions_per_pkg": "400 x 220 x 230 cm"
+            },
+            "weight": {
+                "gross": 18500.0,
+                "net": 17200.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 46.5,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "HIGH-SPEED CIRCULAR KNITTING MACHINE",
+            "brand_model": "HK-KNIT SUPER 3000",
+            "hs_code": "8447.11",
+            "origin": "South Korea",
+            "unit_price": 38000.0,
+            "quantity": 6,
+            "total_amount": 228000.0,
+            "currency": "USD",
+            "marks_numbers": "IFM/AMR/01-06"
+        },
+        "banking_details": {
+            "beneficiary_bank": "DAEGU BANK (DGB)",
+            "swift_code": "DABKKR22",
+            "account_no": "502-10-123456-7",
+            "bank_address": "118, Chilseong-ro, Buk-gu, Daegu",
+            "issuing_bank": "TURKIYE IS BANKASI A.S."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "CISG",
+            "arbitration_place": "Istanbul, Turkey"
+        },
+        "dates": {
+            "contract_date": "2026-03-05",
+            "lc_issue_date": "2026-03-20",
+            "latest_shipment_date": "2026-04-25",
+            "bl_date": "2026-04-15",
+            "lc_expiry_date": "2026-05-10",
+            "invoice_date": "2026-04-12"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "HKT-IFM-2026-INS",
+            "date": "2026-03-05",
+            "seller": {
+                "name": "HANKOOK TEXTILE MACHINERY CO., LTD."
+            },
+            "buyer": {
+                "name": "ISTANBUL FABRIC MILLS A.S."
+            },
+            "shipment_deadline": "2026-04-25",
+            "items": [
+                {
+                    "description": "HIGH-SPEED CIRCULAR KNITTING MACHINE HK-KNIT SUPER 3000",
+                    "hs_code": "8447.11",
+                    "quantity": 6,
+                    "unit_price": 38000.0,
+                    "amount": 228000.0,
+                    "brand_model": "HK-KNIT SUPER 3000"
+                }
+            ],
+            "total_amount": 228000.0,
+            "currency": "USD",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "CFR AMBARLI PORT (INCOTERMS 2020)",
+            "is_signed": true,
+            "risky_clauses": [
+                "Clause 11.1 (Inspection): Upon arrival at the port of discharge, the Buyer shall inspect the goods. The contract does not specify a fixed duration for this inspection, and the parties shall rely on a 'reasonable period' as per market custom.",
+                "Clause 11.2 (Notice of Defect): Notwithstanding CISG Article 39, the Buyer must notify the Seller of any non-conformity or defect within 48 hours of discovery. Failure to provide notice within this timeframe shall result in the absolute forfeiture of the Buyer's right to claim for such defects."
+            ]
+        },
+        "lc": {
+            "lc_no": "ISBK2026TR884",
+            "issuing_bank": "TURKIYE IS BANKASI A.S., ISTANBUL",
+            "advising_bank": "DAEGU BANK, DAEGU",
+            "issue_date": "2026-03-20",
+            "expiry_date": "2026-05-10",
+            "applicant": {
+                "name": "ISTANBUL FABRIC MILLS A.S."
+            },
+            "beneficiary": {
+                "name": "HANKOOK TEXTILE MACHINERY CO., LTD."
+            },
+            "amount": 228000.0,
+            "currency": "USD",
+            "tolerance_percentage": "NIL",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "DAEGU BANK BY NEGOTIATION",
+            "draft_at": "AT SIGHT",
+            "description_of_goods": "6 UNITS OF HK-KNIT SUPER 3000 CIRCULAR KNITTING MACHINES. HS CODE 8447.11. CFR AMBARLI PORT.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE IN 3 COPIES",
+                "FULL SET 3/3 CLEAN ON BOARD OCEAN BILL OF LADING MADE OUT TO THE ORDER OF TURKIYE IS BANKASI A.S. MARKED FREIGHT PREPAID",
+                "PACKING LIST IN 3 COPIES",
+                "CERTIFICATE OF ORIGIN LEGALIZED BY CHAMBER OF COMMERCE"
+            ],
+            "additional_conditions": [
+                "DISCREPANCY FEE USD 150",
+                "ALL DOCUMENTS MUST QUOTE L/C NUMBER"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMMBUSA260415",
+            "shipper": {
+                "name": "HANKOOK TEXTILE MACHINERY CO., LTD."
+            },
+            "consignee": "TO THE ORDER OF TURKIYE IS BANKASI A.S.",
+            "notify_party": {
+                "name": "MARMARA LOGISTICS GROUP"
+            },
+            "vessel_name": "HMM RAON",
+            "voyage_no": "009W",
+            "port_of_loading": "BUSAN PORT, KOREA",
+            "port_of_discharge": "PORT OF AMBARLI, TURKEY",
+            "container_seal_no": "HMMU8822995 / TR2026Q4",
+            "marks_and_nos": "IFM/AMR/01-06",
+            "description_of_goods": "40FT OPEN TOP FCL STC: 6 PALLETS CIRCULAR KNITTING MACHINES",
+            "total_pkgs": 6,
+            "gross_weight": 18500.0,
+            "measurement": 46.5,
+            "freight_term": "Freight Prepaid",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2026-04-15",
+            "place_of_issue": "BUSAN, KOREA",
+            "signed_by": "HMM CO., LTD.",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "HTM-INV-20260412",
+            "date": "2026-04-12",
+            "seller": {
+                "name": "HANKOOK TEXTILE MACHINERY CO., LTD."
+            },
+            "buyer": {
+                "name": "ISTANBUL FABRIC MILLS A.S."
+            },
+            "transport_details": "HMM RAON V.009W",
+            "payment_info": "L/C ISBK2026TR884",
+            "marks_and_nos": "IFM/AMR/01-06",
+            "items": [
+                {
+                    "description": "HK-KNIT SUPER 3000 CIRCULAR KNITTING MACHINES",
+                    "qty": 6,
+                    "unit_price": 38000.0,
+                    "total": 228000.0,
+                    "brand_model": "HK-KNIT SUPER 3000"
+                }
+            ],
+            "total_amount": 228000.0,
+            "currency": "USD",
+            "incoterms": "CFR AMBARLI (INCOTERMS 2020)",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": ""
+        },
+        "pl": {
+            "pl_no": "HTM-PL-20260412",
+            "date": "2026-04-12",
+            "seller": {
+                "name": "HANKOOK TEXTILE MACHINERY CO., LTD."
+            },
+            "buyer": {
+                "name": "ISTANBUL FABRIC MILLS A.S."
+            },
+            "invoice_ref_no": "HTM-INV-20260412",
+            "transport_details": "HMM RAON V.009W",
+            "marks_and_nos": "IFM/AMR/01-06",
+            "items": [
+                {
+                    "description": "HK-KNIT SUPER 3000 CIRCULAR KNITTING MACHINES",
+                    "quantity": 6,
+                    "net_weight": 17200.0,
+                    "gross_weight": 18500.0,
+                    "measurement": 46.5
+                }
+            ],
+            "total_quantity": 6,
+            "total_net_weight": 17200.0,
+            "total_gross_weight": 18500.0,
+            "total_measurement": 46.5,
+            "is_signed": true
+        }
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "transaction_id": "SK-EG-2026-DISC-1102",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "HANKOOK TRANSFORMER CO., LTD.",
+                "addr": "12, Sandan-ro, Ulsan, 44776",
+                "country": "South Korea",
+                "reg_no": "601-81-22334",
+                "contact_person": "Hyun-woo Nam",
+                "email": "hwnam@hktrans.co.kr"
+            },
+            "importer": {
+                "name": "CAIRO POWER DISTRIBUTION CO.",
+                "addr": "53 Ramses Street, Cairo, 11511",
+                "country": "Egypt",
+                "tax_id": "REG-200-112-445",
+                "contact_person": "Mustafa Hassan"
+            },
+            "notify_party": {
+                "name": "NILE DELTA SHIPPING AGENCY",
+                "addr": "El Horreya Road, Alexandria",
+                "contact": "+20-3-484-9988"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Ulsan Port",
+                "un_locode": "KRUSN"
+            },
+            "port_discharge": {
+                "name": "Port of Alexandria",
+                "un_locode": "EGALY"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "MV ANCIENT MARINER (Year Built: 2002)",
+            "voyage_no": "EG-001W / EG-002W",
+            "carrier": "GLOBAL OCEAN FREIGHT",
+            "container_details": {
+                "type": "40ft FCL",
+                "no": "GOCU5544332",
+                "seal_no": "EG2026S1"
+            },
+            "packaging": {
+                "type": "Industrial Steel Crates",
+                "quantity": 10,
+                "dimensions_per_pkg": "220 x 220 x 250 cm"
+            },
+            "weight": {
+                "gross": 24500.0,
+                "net": 22000.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 48.0,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "HIGH-VOLTAGE POWER TRANSFORMER",
+            "brand_model": "HK-V2500 POWER STATION",
+            "hs_code": "8504.23",
+            "origin": "South Korea",
+            "unit_price": 45000.0,
+            "quantity": 10,
+            "total_amount": 450000.0,
+            "currency": "USD",
+            "marks_numbers": "CPD/ALY/01-10"
+        },
+        "banking_details": {
+            "beneficiary_bank": "KEB HANA BANK",
+            "swift_code": "KOEXKRSE",
+            "account_no": "101-889900-11223",
+            "bank_address": "66, Eulji-ro, Jung-gu, Seoul",
+            "issuing_bank": "NATIONAL BANK OF EGYPT"
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "ICC UCP 600",
+            "arbitration_place": "London, UK"
+        },
+        "dates": {
+            "contract_date": "2026-02-15",
+            "lc_issue_date": "2026-03-05",
+            "latest_shipment_date": "2026-04-20",
+            "bl_date": "2026-04-12",
+            "lc_expiry_date": "2026-05-10",
+            "invoice_date": "2026-04-05"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "HKT-CPD-2026-08",
+            "date": "2026-02-15",
+            "seller": {
+                "name": "HANKOOK TRANSFORMER CO., LTD."
+            },
+            "buyer": {
+                "name": "CAIRO POWER DISTRIBUTION CO."
+            },
+            "shipment_deadline": "2026-04-20",
+            "items": [
+                {
+                    "description": "HIGH-VOLTAGE POWER TRANSFORMER HK-V2500",
+                    "hs_code": "8504.23",
+                    "quantity": 10,
+                    "unit_price": 45000.0,
+                    "amount": 450000.0,
+                    "brand_model": "HK-V2500 POWER STATION"
+                }
+            ],
+            "total_amount": 450000.0,
+            "currency": "USD",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "CIF ALEXANDRIA PORT",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "NBE2026CAI9901",
+            "issuing_bank": "NATIONAL BANK OF EGYPT, CAIRO",
+            "advising_bank": "KEB HANA BANK, SEOUL",
+            "issue_date": "2026-03-05",
+            "expiry_date": "2026-05-10",
+            "applicant": {
+                "name": "CAIRO POWER DISTRIBUTION CO."
+            },
+            "beneficiary": {
+                "name": "HANKOOK TRANSFORMER CO., LTD."
+            },
+            "amount": 450000.0,
+            "currency": "USD",
+            "tolerance_percentage": "NIL",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "KEB HANA BANK BY NEGOTIATION",
+            "draft_at": "AT SIGHT",
+            "description_of_goods": "10 UNITS OF POWER TRANSFORMER HK-V2500. CIF ALEXANDRIA. PARTIAL SHIPMENT PROHIBITED.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE IN 3 COPIES",
+                "FULL SET 3/3 CLEAN ON BOARD OCEAN BILL OF LADING",
+                "PACKING LIST IN 3 COPIES",
+                "INSTITUTE CARGO CLAUSE (A) INSURANCE POLICY INDICATING VESSEL AGE NOT EXCEEDING 20 YEARS"
+            ],
+            "additional_conditions": [
+                "PARTIAL SHIPMENT IS STRICTLY PROHIBITED. ALL GOODS MUST BE SHIPPED ON ONE VESSEL UNDER ONE VOYAGE.",
+                "VESSEL AGE WARRANTY: SHIPMENT BY VESSELS BUILT PRIOR TO 2006 IS PROHIBITED."
+            ]
+        },
+        "bl": {
+            "bl_no": "GLOULSEGA26",
+            "shipper": {
+                "name": "HANKOOK TRANSFORMER CO., LTD."
+            },
+            "consignee": "TO THE ORDER OF NATIONAL BANK OF EGYPT",
+            "notify_party": {
+                "name": "NILE DELTA SHIPPING AGENCY"
+            },
+            "vessel_name": "MV ANCIENT MARINER (Built: 2002)",
+            "voyage_no": "EG-001W (Units 1-5) and EG-002W (Units 6-10)",
+            "port_of_loading": "ULSAN PORT, KOREA",
+            "port_of_discharge": "PORT OF ALEXANDRIA, EGYPT",
+            "container_seal_no": "GOCU5544332 / EG2026S1",
+            "marks_and_nos": "CPD/ALY/01-10",
+            "description_of_goods": "10 STEEL CRATES OF POWER TRANSFORMERS",
+            "total_pkgs": 10,
+            "gross_weight": 24500.0,
+            "measurement": 48.0,
+            "freight_term": "Freight Prepaid",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2026-04-12",
+            "place_of_issue": "ULSAN, KOREA",
+            "signed_by": "GLOBAL OCEAN FREIGHT",
+            "discrepancy_note": "CRITICAL: B/L indicates two different voyages (EG-001W and EG-002W) for a single container/shipment, constituting a Partial Shipment violation under UCP 600 Art 31. Also, Vessel built in 2002 violates 20-year age limit specified in L/C and Insurance Warranty.",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "HKT-INV-0405",
+            "date": "2026-04-05",
+            "seller": {
+                "name": "HANKOOK TRANSFORMER CO., LTD."
+            },
+            "buyer": {
+                "name": "CAIRO POWER DISTRIBUTION CO."
+            },
+            "transport_details": "MV ANCIENT MARINER V.EG-001W/EG-002W",
+            "payment_info": "L/C NBE2026CAI9901",
+            "marks_and_nos": "CPD/ALY/01-10",
+            "items": [
+                {
+                    "description": "POWER TRANSFORMER HK-V2500",
+                    "qty": 10,
+                    "unit_price": 45000.0,
+                    "total": 450000.0,
+                    "brand_model": "HK-V2500 POWER STATION"
+                }
+            ],
+            "total_amount": 450000.0,
+            "currency": "USD",
+            "incoterms": "CIF ALEXANDRIA (INCOTERMS 2020)",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": ""
+        },
+        "pl": {
+            "pl_no": "HKT-PL-0405",
+            "date": "2026-04-05",
+            "seller": {
+                "name": "HANKOOK TRANSFORMER CO., LTD."
+            },
+            "buyer": {
+                "name": "CAIRO POWER DISTRIBUTION CO."
+            },
+            "invoice_ref_no": "HKT-INV-0405",
+            "transport_details": "MV ANCIENT MARINER",
+            "marks_and_nos": "CPD/ALY/01-10",
+            "items": [
+                {
+                    "description": "POWER TRANSFORMER HK-V2500",
+                    "quantity": 10,
+                    "net_weight": 22000.0,
+                    "gross_weight": 24500.0,
+                    "measurement": 48.0
+                }
+            ],
+            "total_quantity": 10,
+            "total_net_weight": 22000.0,
+            "total_gross_weight": 24500.0,
+            "total_measurement": 48.0,
+            "is_signed": true
+        }
+    }
+}

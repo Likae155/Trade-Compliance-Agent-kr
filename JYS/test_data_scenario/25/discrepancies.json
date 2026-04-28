@@ -1,0 +1,7 @@
+[
+    {
+        "doc": "invoice",
+        "issue": "AI Noted Discrepancy",
+        "detail": "Intentional Discrepancy: Shipping date 2023-10-26 is one day after the L/C latest shipment date 2023-10-25."
+    }
+]

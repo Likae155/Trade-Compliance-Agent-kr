@@ -1,0 +1,203 @@
+{
+    "transaction_id": "SK-DE-2026-LIAB-4491",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "K-ROBOTICS PRECISION CO.",
+                "addr": "88, Techno-daero, Yuseong-gu, Daejeon, 34012",
+                "country": "South Korea",
+                "reg_no": "305-81-77221",
+                "contact_person": "Sung-hoon Choi",
+                "email": "shchoi@k-robotics.kr"
+            },
+            "importer": {
+                "name": "BAYERISCHE AUTOMATION GMBH",
+                "addr": "Leopoldstrasse 250, 80807 Munich",
+                "country": "Germany",
+                "tax_id": "DE123456789",
+                "contact_person": "Hans Mueller"
+            },
+            "notify_party": {
+                "name": "DEUTSCHE LOGISTIK ZENTRUM",
+                "addr": "Hamburg Port Terminal 4, Hamburg",
+                "contact": "+49-40-3344-5566"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Busan Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Port of Hamburg",
+                "un_locode": "DEHAM"
+            },
+            "incoterms": "DAP",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "HMM HAMBURG",
+            "voyage_no": "2604N",
+            "carrier": "HMM CO., LTD.",
+            "container_details": {
+                "type": "20ft FCL",
+                "no": "HMMU9988112",
+                "seal_no": "KRDE2026Z7"
+            },
+            "packaging": {
+                "type": "Anti-Static Wooden Crates",
+                "quantity": 5,
+                "dimensions_per_pkg": "150 x 150 x 180 cm"
+            },
+            "weight": {
+                "gross": 4500.0,
+                "net": 4000.0,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 20.2,
+                "unit": "CBM"
+            },
+            "mode": "SEA"
+        },
+        "product": {
+            "name": "6-AXIS INDUSTRIAL COLLABORATIVE ROBOT",
+            "brand_model": "CO-BOT X-100",
+            "hs_code": "8479.50",
+            "origin": "South Korea",
+            "unit_price": 40000.0,
+            "quantity": 5,
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "marks_numbers": "BAG/HAM/01-05"
+        },
+        "banking_details": {
+            "beneficiary_bank": "HANA BANK",
+            "swift_code": "HNBNKRSE",
+            "account_no": "101-998822-33445",
+            "bank_address": "66, Eulji-ro, Jung-gu, Seoul",
+            "issuing_bank": "DEUTSCHE BANK AG"
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "CISG / German Law (BGB)",
+            "arbitration_place": "Frankfurt, Germany"
+        },
+        "dates": {
+            "contract_date": "2026-03-05",
+            "lc_issue_date": "2026-03-20",
+            "latest_shipment_date": "2026-04-28",
+            "bl_date": "2026-04-24",
+            "lc_expiry_date": "2026-05-15",
+            "invoice_date": "2026-04-20"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "KR-BAG-2026-044",
+            "date": "2026-03-05",
+            "seller": {
+                "name": "K-ROBOTICS PRECISION CO."
+            },
+            "buyer": {
+                "name": "BAYERISCHE AUTOMATION GMBH"
+            },
+            "shipment_deadline": "2026-04-28",
+            "items": [
+                {
+                    "description": "CO-BOT X-100 INDUSTRIAL ROBOT",
+                    "hs_code": "8479.50",
+                    "quantity": 5,
+                    "unit_price": 40000.0,
+                    "amount": 200000.0,
+                    "brand_model": "CO-BOT X-100"
+                }
+            ],
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "payment_terms": "IRREVOCABLE L/C AT SIGHT",
+            "incoterms": "DAP MUNICH (INCOTERMS 2020)",
+            "is_signed": true,
+            "risky_clauses": [
+                "Clause 14.2 (Limitation of Liability): Notwithstanding any provision to the contrary, the Seller's maximum aggregate liability for any claims, damages, or losses arising out of or in connection with this Contract shall be strictly limited to 10% of the total Contract Price.",
+                "Clause 16.1 (Warranty Period): The Seller warrants that the goods shall be free from defects for a period of one (1) year from the date of delivery."
+            ]
+        },
+        "lc": {
+            "lc_no": "DBDE2026MUN001",
+            "issuing_bank": "DEUTSCHE BANK AG, MUNICH",
+            "advising_bank": "HANA BANK, SEOUL",
+            "issue_date": "2026-03-20",
+            "expiry_date": "2026-05-15",
+            "applicant": {
+                "name": "BAYERISCHE AUTOMATION GMBH"
+            },
+            "beneficiary": {
+                "name": "K-ROBOTICS PRECISION CO."
+            },
+            "amount": 200000.0,
+            "currency": "USD",
+            "form_of_lc": "IRREVOCABLE",
+            "description_of_goods": "5 UNITS OF INDUSTRIAL COLLABORATIVE ROBOT CO-BOT X-100. DAP MUNICH.",
+            "documents_required": [
+                "SIGNED COMMERCIAL INVOICE",
+                "FULL SET CLEAN ON BOARD BILL OF LADING",
+                "PACKING LIST",
+                "WARRANTY CERTIFICATE"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMMBUSHAM26",
+            "shipper": {
+                "name": "K-ROBOTICS PRECISION CO."
+            },
+            "consignee": "TO THE ORDER OF DEUTSCHE BANK AG",
+            "vessel_name": "HMM HAMBURG",
+            "voyage_no": "2604N",
+            "port_of_loading": "BUSAN PORT, KOREA",
+            "port_of_discharge": "PORT OF HAMBURG, GERMANY",
+            "description_of_goods": "20FT FCL STC: 5 CRATES INDUSTRIAL ROBOTS",
+            "gross_weight": 4500.0,
+            "shipped_on_board_date": "2026-04-24",
+            "signed_by": "HMM CO., LTD.",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "KRP-INV-20260420",
+            "date": "2026-04-20",
+            "seller": {
+                "name": "K-ROBOTICS PRECISION CO."
+            },
+            "buyer": {
+                "name": "BAYERISCHE AUTOMATION GMBH"
+            },
+            "items": [
+                {
+                    "description": "CO-BOT X-100 INDUSTRIAL ROBOT",
+                    "qty": 5,
+                    "unit_price": 40000.0,
+                    "total": 200000.0,
+                    "brand_model": "CO-BOT X-100"
+                }
+            ],
+            "total_amount": 200000.0,
+            "currency": "USD",
+            "discrepancy_note": "CONFLICT: Standard Terms and Conditions printed on the reverse of this Invoice state a '90-day limited warranty' and 'No liability for consequential damages', directly contradicting the 1-year warranty specified in the signed Main Contract.",
+            "has_shipped_stamp": true
+        },
+        "pl": {
+            "pl_no": "KRP-PL-20260420",
+            "date": "2026-04-20",
+            "seller": {
+                "name": "K-ROBOTICS PRECISION CO."
+            },
+            "buyer": {
+                "name": "BAYERISCHE AUTOMATION GMBH"
+            },
+            "total_gross_weight": 4500.0,
+            "total_net_weight": 4000.0,
+            "is_signed": true
+        }
+    }
+}

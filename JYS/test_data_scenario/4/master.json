@@ -1,0 +1,230 @@
+{
+    "transaction_id": "SK-BRA-2023-8892A-AIR",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "Hyundai Robotics Co., Ltd.",
+                "addr": "123 Robot Valley, Daegu, South Korea",
+                "country": "South Korea",
+                "reg_no": "101-81-22934",
+                "contact_person": "Mr. Park Ji-sung",
+                "email": "export@hyundai-robotics.kr"
+            },
+            "importer": {
+                "name": "Industrias Automotivas Brasil S.A.",
+                "addr": "Av. Paulista 1000, Sao Paulo, Brazil",
+                "country": "Brazil",
+                "tax_id": "12.345.678/0001-99",
+                "contact_person": "Carlos Mendes"
+            },
+            "notify_party": {
+                "name": "Logistics Express Brazil",
+                "addr": "Porto de Santos Terminal, Santos, Brazil",
+                "contact": "+55 13 9999-8888"
+            }
+        },
+        "logistics": {
+            "port_loading": {
+                "name": "Incheon Int'l Airport (ICN)",
+                "un_locode": "KRSEL"
+            },
+            "port_discharge": {
+                "name": "Sao Paulo Guarulhos Airport (GRU)",
+                "un_locode": "BRGRU"
+            },
+            "incoterms": "FOB",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "KAL Cargo KE054",
+            "voyage_no": "KE054",
+            "carrier": "Korean Air Cargo",
+            "container_details": {
+                "type": "Air Pallet",
+                "no": "AKE12345KE",
+                "seal_no": "N/A"
+            },
+            "packaging": {
+                "type": "Wooden Crates",
+                "quantity": 10,
+                "dimensions_per_pkg": "200 x 150 x 200 cm"
+            },
+            "weight": {
+                "gross": 12000,
+                "net": 10500,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 60,
+                "unit": "CBM"
+            },
+            "mode": "AIR"
+        },
+        "product": {
+            "name": "Industrial Robotic Arms",
+            "brand_model": "HYU-X700",
+            "hs_code": "847950",
+            "origin": "South Korea",
+            "unit_price": 50000,
+            "quantity": 10,
+            "total_amount": 500000,
+            "currency": "USD",
+            "marks_numbers": "IBR-SK-2023-01"
+        },
+        "banking_details": {
+            "beneficiary_bank": "Woori Bank, Busan Branch",
+            "swift_code": "WRIBKRSE",
+            "account_no": "1002-888-99999",
+            "bank_address": "Jung-gu, Busan, South Korea",
+            "issuing_bank": "Banco do Brasil S.A."
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "At Sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "Korean Law",
+            "arbitration_place": "Seoul, South Korea"
+        },
+        "dates": {
+            "contract_date": "2023-09-01",
+            "lc_issue_date": "2023-09-05",
+            "latest_shipment_date": "2023-10-15",
+            "bl_date": "2023-10-10",
+            "lc_expiry_date": "2023-11-10",
+            "invoice_date": "2023-10-09"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "CON-2023-889",
+            "date": "2023-09-01",
+            "seller": {
+                "name": "Hyundai Robotics Co., Ltd."
+            },
+            "buyer": {
+                "name": "Industrias Automotivas Brasil S.A."
+            },
+            "shipment_deadline": "2023-10-15",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arms",
+                    "hs_code": "847950",
+                    "quantity": 10,
+                    "unit_price": 50000,
+                    "amount": 500000,
+                    "brand_model": "HYU-X700"
+                }
+            ],
+            "total_amount": 500000,
+            "currency": "USD",
+            "payment_terms": "L/C At Sight",
+            "incoterms": "FOB (Note: Includes clause requiring Buyer to pay warehouse fees at ICN if flight delays beyond 7 days)",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "LC-BBR-00123",
+            "issuing_bank": "Banco do Brasil S.A.",
+            "advising_bank": "Woori Bank",
+            "issue_date": "2023-09-05",
+            "expiry_date": "2023-11-10",
+            "applicant": {
+                "name": "Industrias Automotivas Brasil S.A."
+            },
+            "beneficiary": {
+                "name": "Hyundai Robotics Co., Ltd."
+            },
+            "amount": 500000,
+            "currency": "USD",
+            "tolerance_percentage": "NIL",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "Any Bank",
+            "draft_at": "At Sight",
+            "description_of_goods": "Industrial Robotic Arms",
+            "documents_required": [
+                "Commercial Invoice",
+                "Clean Air Waybill Consigned to Banco do Brasil S.A.",
+                "Packing List"
+            ],
+            "additional_conditions": [
+                "Warehouse fees incurred at loading airport to be settled by applicant."
+            ]
+        },
+        "awb": {
+            "awb_no": "999-77889901",
+            "shipper": {
+                "name": "Hyundai Robotics Co., Ltd.",
+                "address": "123 Robot Valley, Daegu, South Korea"
+            },
+            "consignee": {
+                "name": "Banco do Brasil S.A.",
+                "address": "Av. Paulista 1000, Sao Paulo, Brazil"
+            },
+            "notify_party": "Industrias Automotivas Brasil S.A.",
+            "vessel": "KAL Cargo KE054",
+            "port_loading": "Incheon Int'l Airport (ICN)",
+            "port_discharge": "Sao Paulo Guarulhos Airport (GRU)",
+            "description": "Industrial Robotic Arms",
+            "total_pkgs": 10,
+            "gross_weight": 12000,
+            "weight_unit": "KGS",
+            "invoice_no": "INV-2023-001",
+            "issue_place": "Incheon, South Korea",
+            "issue_date": "2023-10-10"
+        },
+        "invoice": {
+            "invoice_no": "INV-2023-001",
+            "date": "2023-10-09",
+            "seller": {
+                "name": "Hyundai Robotics Co., Ltd."
+            },
+            "buyer": {
+                "name": "Industrias Automotivas Brasil S.A."
+            },
+            "transport_details": "KAL Cargo KE054",
+            "payment_info": "L/C LC-BBR-00123",
+            "marks_and_nos": "IBR-SK-2023-01",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arms",
+                    "quantity": 10,
+                    "unit_price": 50000,
+                    "amount": 500000,
+                    "brand_model": "HYU-X700",
+                    "total": 500000
+                }
+            ],
+            "total_amount": 500000,
+            "currency": "USD",
+            "incoterms": "FOB",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": ""
+        },
+        "pl": {
+            "pl_no": "PL-2023-001",
+            "date": "2023-10-09",
+            "seller": {
+                "name": "Hyundai Robotics Co., Ltd."
+            },
+            "buyer": {
+                "name": "Industrias Automotivas Brasil S.A."
+            },
+            "invoice_ref_no": "INV-2023-001",
+            "transport_details": "KAL Cargo KE054",
+            "marks_and_nos": "IBR-SK-2023-01",
+            "items": [
+                {
+                    "description": "Industrial Robotic Arms",
+                    "quantity": 10,
+                    "net_weight": 10500,
+                    "gross_weight": 12000,
+                    "measurement": 60
+                }
+            ],
+            "total_quantity": 10,
+            "total_net_weight": 10500,
+            "total_gross_weight": 12000,
+            "total_measurement": 60,
+            "is_signed": true
+        }
+    }
+}

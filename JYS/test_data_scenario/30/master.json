@@ -1,0 +1,229 @@
+{
+    "transaction_id": "SK-BRA-2023-88921",
+    "master_data": {
+        "parties": {
+            "exporter": {
+                "name": "Hyundai Advanced Materials Co.",
+                "addr": "123 Gangnam-daero, Seoul, South Korea",
+                "country": "South Korea",
+                "reg_no": "110-81-22941",
+                "contact_person": "Min-ho Park",
+                "email": "mhpark@hyundai-materials.kr"
+            },
+            "importer": {
+                "name": "Tecnologia São Paulo S.A.",
+                "addr": "Av. Paulista 1000, São Paulo, Brazil",
+                "country": "Brazil",
+                "tax_id": "CNPJ 12.345.678/0001-99",
+                "contact_person": "Ricardo Silva"
+            },
+            "notify_party": {
+                "name": "Logistics Solutions Brazil",
+                "addr": "Porto de Santos, São Paulo, Brazil",
+                "contact": "Operational Dept"
+            }
+        },
+        "logistics": {
+            "mode": "SEA",
+            "port_loading": {
+                "name": "Busan New Port",
+                "un_locode": "KRPUS"
+            },
+            "port_discharge": {
+                "name": "Port of Santos",
+                "un_locode": "BRSSZ"
+            },
+            "incoterms": "CIF",
+            "incoterms_version": "Incoterms 2020",
+            "vessel_name": "Hyundai Hope",
+            "voyage_no": "V.044N",
+            "carrier": "HMM Co., Ltd.",
+            "container_details": {
+                "type": "40ft High Cube",
+                "no": "HMMU1234567",
+                "seal_no": "SL-998877"
+            },
+            "packaging": {
+                "type": "Pallets",
+                "quantity": 20,
+                "dimensions_per_pkg": "120 x 100 x 150 cm"
+            },
+            "weight": {
+                "gross": 18000,
+                "net": 16500,
+                "unit": "KGS"
+            },
+            "measurement": {
+                "value": 45,
+                "unit": "CBM"
+            }
+        },
+        "product": {
+            "name": "Industrial Components",
+            "brand_model": "HYU-SENSOR-X500 & HYU-CONTROL-V2",
+            "hs_code": "854231",
+            "origin": "South Korea",
+            "unit_price": 500.0,
+            "quantity": 100,
+            "total_amount": 55000.0,
+            "currency": "USD",
+            "marks_numbers": "H-BRA-001"
+        },
+        "banking_details": {
+            "beneficiary_bank": "Woori Bank, Busan Branch",
+            "swift_code": "WURI KR SE",
+            "account_no": "1002-888-999999",
+            "bank_address": "Jung-gu, Busan, South Korea",
+            "issuing_bank": "Banco do Brasil, São Paulo"
+        },
+        "terms": {
+            "payment_method": "L/C",
+            "payment_deadline": "Sight",
+            "partial_shipment": "Prohibited",
+            "transhipment": "Allowed",
+            "governing_law": "CISG",
+            "arbitration_place": "Singapore International Arbitration Centre",
+            "additional_notes": "Inspection period limited to 24 hours upon arrival at warehouse. Claims regarding latent defects are waived after 72 hours."
+        },
+        "dates": {
+            "contract_date": "2023-09-01",
+            "lc_issue_date": "2023-09-05",
+            "latest_shipment_date": "2023-10-15",
+            "bl_date": "2023-10-16",
+            "lc_expiry_date": "2023-10-30",
+            "invoice_date": "2023-10-10"
+        }
+    },
+    "documents": {
+        "contract": {
+            "contract_no": "CON-2023-001",
+            "date": "2023-09-01",
+            "seller": {},
+            "buyer": {},
+            "shipment_deadline": "2023-10-15",
+            "items": [
+                {
+                    "description": "Precision Sensors",
+                    "brand_model": "HYU-SENSOR-X500",
+                    "hs_code": "854231",
+                    "quantity": 50,
+                    "unit_price": 600,
+                    "amount": 30000
+                },
+                {
+                    "description": "Logic Controllers",
+                    "brand_model": "HYU-CONTROL-V2",
+                    "hs_code": "854231",
+                    "quantity": 50,
+                    "unit_price": 500,
+                    "amount": 25000
+                }
+            ],
+            "total_amount": 55000,
+            "currency": "USD",
+            "payment_terms": "L/C at Sight",
+            "incoterms": "CIF",
+            "is_signed": true
+        },
+        "lc": {
+            "lc_no": "LC-888223",
+            "issuing_bank": "Banco do Brasil",
+            "advising_bank": "Woori Bank",
+            "issue_date": "2023-09-05",
+            "expiry_date": "2023-10-30",
+            "applicant": {},
+            "beneficiary": {},
+            "amount": 55000,
+            "currency": "USD",
+            "tolerance_percentage": "0%",
+            "form_of_lc": "IRREVOCABLE",
+            "available_with": "Any Bank by Sight",
+            "draft_at": "Sight",
+            "description_of_goods": "Industrial Components",
+            "documents_required": [
+                "Invoice",
+                "B/L",
+                "Packing List"
+            ],
+            "additional_conditions": [
+                "Inspection period 24 hours"
+            ]
+        },
+        "bl": {
+            "bl_no": "HMM-SANTOS-001",
+            "shipper": {},
+            "consignee": "TO THE ORDER OF Banco do Brasil",
+            "notify_party": {},
+            "vessel_name": "Hyundai Hope",
+            "voyage_no": "V.044N",
+            "port_of_loading": "Busan",
+            "port_of_discharge": "Santos",
+            "container_seal_no": "SL-998877",
+            "marks_and_nos": "H-BRA-001",
+            "description_of_goods": "Industrial Components",
+            "total_pkgs": 20,
+            "gross_weight": 18000,
+            "measurement": 45,
+            "freight_term": "Prepaid",
+            "is_clean_on_board": true,
+            "shipped_on_board_date": "2023-10-16",
+            "place_of_issue": "Busan",
+            "signed_by": "Authorized Agent",
+            "has_shipped_stamp": true
+        },
+        "invoice": {
+            "invoice_no": "INV-001",
+            "date": "2023-10-10",
+            "seller": {},
+            "buyer": {},
+            "transport_details": "Sea Freight",
+            "payment_info": "L/C at Sight",
+            "marks_and_nos": "H-BRA-001",
+            "items": [
+                {
+                    "description": "Precision Sensors",
+                    "brand_model": "HYU-SENSOR-X500",
+                    "quantity": 50,
+                    "unit_price": 600,
+                    "total": 30000
+                },
+                {
+                    "description": "Logic Controllers",
+                    "brand_model": "HYU-CONTROL-V2",
+                    "quantity": 50,
+                    "unit_price": 500,
+                    "total": 25000
+                }
+            ],
+            "total_amount": 55000,
+            "currency": "USD",
+            "incoterms": "CIF",
+            "is_signed": true,
+            "has_shipped_stamp": true,
+            "discrepancy_note": "B/L date exceeds latest shipment date by 1 day"
+        },
+        "pl": {
+            "pl_no": "PL-001",
+            "date": "2023-10-10",
+            "seller": {},
+            "buyer": {},
+            "invoice_ref_no": "INV-001",
+            "transport_details": "Sea Freight",
+            "marks_and_nos": "H-BRA-001",
+            "items": [
+                {
+                    "description": "Palletized industrial goods",
+                    "quantity": 20,
+                    "net_weight": 16500,
+                    "gross_weight": 18000,
+                    "measurement": 45
+                }
+            ],
+            "total_quantity": 20,
+            "total_net_weight": 16500,
+            "total_gross_weight": 18000,
+            "total_measurement": 45,
+            "is_signed": true
+        }
+    }
+}

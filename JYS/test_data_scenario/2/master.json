@@ -1,0 +1,110 @@
+{
+  "contract": {
+    "contract_no": "SK-GE-2026-0102",
+    "contract_date": "2026-03-10",
+    "seller": "HANKOOK PRECISION SEMI CO., LTD.",
+    "buyer": "DEUTSCHE AUTOMOTIVE SOLUTIONS GMBH",
+    "shipment_deadline": "2026-04-20",
+    "partial_shipment": "PROHIBITED",
+    "transhipment": "ALLOWED",
+    "items": [
+      {
+        "description": "HIGH-PRECISION AUTOMOTIVE SENSOR MODULES (MODEL: AS-900X)",
+        "hs_code": "8542.39.10",
+        "quantity": 2500,
+        "unit_price": 140.0,
+        "amount": 350000.0
+      }
+    ],
+    "total_amount": 350000.0,
+    "currency": "EUR",
+    "payment_terms": "IRREVOCABLE LETTER OF CREDIT AT SIGHT",
+    "bank_charge_clause": "SHA (ALL BANKING CHARGES OUTSIDE KOREA ARE FOR APPLICANT ACCOUNT)",
+    "governing_law": "UN CONVENTION ON CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS (CISG)",
+    "arbitration_clause": "KOREAN COMMERCIAL ARBITRATION BOARD (KCAB) IN SEOUL"
+  },
+  "lc": {
+    "lc_no": "LCEU662900381",
+    "issuing_bank": "DEUTSCHE BANK AG, FRANKFURT",
+    "advising_bank": "HANA BANK, SEOUL",
+    "issue_date": "2026-03-20",
+    "expiry_date": "2026-05-10",
+    "expiry_place": "SOUTH KOREA",
+    "applicant": "DEUTSCHE AUTOMOTIVE SOLUTIONS GMBH, MAINZER LANDSTRASSE 16, FRANKFURT, GERMANY",
+    "beneficiary": "HANKOOK PRECISION SEMI CO., LTD., 125 TEHERAN-RO, GANGNAM-GU, SEOUL, KOREA",
+    "amount": 350000.0,
+    "currency": "EUR",
+    "form_of_lc": "IRREVOCABLE",
+    "available_with": "HANA BANK BY NEGOTIATION",
+    "draft_at": "AT SIGHT",
+    "description_of_goods": "2,500 UNITS OF AUTOMOTIVE SENSOR MODULES AS-900X AS PER CONTRACT SK-GE-2026-0102. CIP HAMBURG INCOTERMS 2020.",
+    "documents_required": [
+      "SIGNED COMMERCIAL INVOICE IN 3 COPIES",
+      "FULL SET 3/3 CLEAN ON BOARD OCEAN BILL OF LADING MADE OUT TO ORDER OF DEUTSCHE BANK AG MARKED FREIGHT PREPAID",
+      "PACKING LIST IN 3 COPIES",
+      "INSURANCE POLICY COVERING 110 PERCENT OF CIF VALUE INCLUDING INSTITUTE CARGO CLAUSE (A)",
+      "CERTIFICATE OF ORIGIN ISSUED BY KOREA CHAMBER OF COMMERCE"
+    ],
+    "additional_conditions": [
+      "T.T. REIMBURSEMENT PROHIBITED",
+      "ALL DOCUMENTS MUST BE IN ENGLISH",
+      "STALE DOCUMENTS NOT ACCEPTABLE"
+    ]
+  },
+  "bl": {
+    "bl_no": "HMMYSEL20260415",
+    "shipper": "HANKOOK PRECISION SEMI CO., LTD.",
+    "consignee": "TO ORDER OF DEUTSCHE BANK AG",
+    "notify_party": "DEUTSCHE AUTOMOTIVE SOLUTIONS GMBH",
+    "vessel_name": "HMM HANBADA",
+    "voyage_no": "012W",
+    "port_of_loading": "BUSAN, KOREA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "container_seal_no": "HDMU9081223 / SL004821",
+    "marks_and_nos": "DAS / HAMBURG / NO. 1-125",
+    "description_of_goods": "20FT FCL STC: 125 PALLETS OF AUTOMOTIVE SENSOR MODULES (AS-900X)",
+    "total_pkgs": "125 PALLETS",
+    "gross_weight": "11250.00 KGS",
+    "measurement": "28.50 CBM",
+    "freight_term": "FREIGHT PREPAID",
+    "shipped_on_board_date": "2026-04-15",
+    "place_of_issue": "BUSAN, KOREA"
+  },
+  "invoice": {
+    "invoice_no": "INV-HPS-20260415",
+    "invoice_date": "2026-04-15",
+    "seller_info": "HANKOOK PRECISION SEMI CO., LTD., 125 TEHERAN-RO, GANGNAM-GU, SEOUL, KOREA (REG NO: 101-81-12345)",
+    "buyer_info": "DEUTSCHE AUTOMOTIVE SOLUTIONS GMBH, MAINZER LANDSTRASSE 16, FRANKFURT, GERMANY (TAX ID: DE123456789)",
+    "transport_details": "Vessel: HMM HANBADA V.012W | POL: BUSAN | POD: HAMBURG | ETD: 2026-04-15",
+    "payment_info": "L/C NO. LCEU662900381 | BANK: HANA BANK SEOUL | SWIFT: HNABKRSE | ACC: 123-456789-00101",
+    "item_details": [
+      {
+        "model": "AS-900X",
+        "description": "AUTOMOTIVE SENSOR MODULES",
+        "qty": 2500,
+        "unit_price": 140.0,
+        "total": 350000.0
+      }
+    ],
+    "total_val_in_words": "SAY THREE HUNDRED FIFTY THOUSAND EUROS ONLY",
+    "declaration_of_origin": "WE HEREBY CERTIFY THAT THE GOODS ARE OF SOUTH KOREA ORIGIN AND THE INVOICE IS TRUE AND CORRECT."
+  },
+  "packing_list": {
+    "invoice_no": "INV-HPS-20260415",
+    "invoice_date": "2026-04-15",
+    "packer": "HANKOOK PRECISION SEMI CO., LTD.",
+    "consignee": "DEUTSCHE AUTOMOTIVE SOLUTIONS GMBH",
+    "item_details": [
+      {
+        "description": "AUTOMOTIVE SENSOR MODULES (AS-900X)",
+        "qty_per_pallet": "20 UNITS",
+        "total_pallets": 125,
+        "total_units": 2500,
+        "net_weight": "10000.00 KGS",
+        "gross_weight": "11250.00 KGS",
+        "measurement": "28.50 CBM"
+      }
+    ],
+    "shipping_marks": "DAS / HAMBURG / NO. 1-125"
+  }
+}
