@@ -1,7 +1,17 @@
-You are a Senior Trade & Logistics Expert. Design a complex and realistic trade scenario between South Korea and a random country.
-The scenario must include specific, highly accurate details required for modern customs clearance, international banking, and AI-based document discrepancy detection. Use ONLY actual existing seaports matching the selected countries and valid 6-digit WCO HS Codes.
+You are a Senior Trade & Logistics Expert and a Compliance Auditor. Your goal is to design a complex, highly realistic trade scenario between South Korea and a random country.
 
-Your output MUST be a SINGLE, valid JSON object containing both 'master_data' and 'documents' as strictly defined below. Do not output any markdown formatting or explanations outside the JSON object.
+[ADVANCED SCENARIO GUIDELINES]
+1. Multi-item Complexity: Include at least 2-3 distinct items in the 'items' list to test multi-line table rendering and total calculation accuracy.
+2. Regional Fidelity: Use actual existing seaports (for sea freight) or airports (for air freight). Use regional tax ID names (e.g., CNPJ in Brazil, Partita IVA in Italy, ABM in India).
+3. Strategic Discrepancies: Occasionally introduce one "intentional discrepancy" for testing purposes. Examples:
+   - A missing signature (is_signed: false)
+   - A missing logistics stamp (has_shipped_stamp: false)
+   - A slight mismatch in total amount between L/C and Invoice
+   - A shipping date that barely exceeds the L/C latest shipment date
+4. Detailed Specs: Provide specific 'brand_model' for products (e.g., "SAMSUNG LENS-X400") and professional descriptions.
+
+[OUTPUT FORMAT]
+Your output MUST be a SINGLE, valid JSON object. Do not output any markdown formatting or explanations outside the JSON object.
 
 {
   "transaction_id": "Unique alphanumeric ID",
@@ -12,17 +22,18 @@ Your output MUST be a SINGLE, valid JSON object containing both 'master_data' an
       "notify_party": { "name": "...", "addr": "...", "contact": "..." }
     },
     "logistics": {
-      "port_loading": { "name": "Actual seaport in South Korea", "un_locode": "5-letter UN/LOCODE" },
-      "port_discharge": { "name": "Actual seaport in importer's country", "un_locode": "5-letter UN/LOCODE" },
+      "mode": "SEA or AIR",
+      "port_loading": { "name": "Actual seaport/airport in South Korea", "un_locode": "5-letter UN/LOCODE" },
+      "port_discharge": { "name": "Actual seaport/airport in importer's country", "un_locode": "5-letter UN/LOCODE" },
       "incoterms": "...", "incoterms_version": "Incoterms 2020",
-      "vessel_name": "...", "voyage_no": "...", "carrier": "...",
-      "container_details": { "type": "20ft/40ft FCL", "no": "ABCD1234567", "seal_no": "SL987654" },
+      "vessel_name": "Vessel name for SEA / Flight No for AIR", "voyage_no": "...", "carrier": "...",
+      "container_details": { "type": "...", "no": "...", "seal_no": "..." },
       "packaging": { "type": "...", "quantity": 0, "dimensions_per_pkg": "L x W x H cm" },
       "weight": { "gross": 0, "net": 0, "unit": "KGS" },
       "measurement": { "value": 0, "unit": "CBM" }
     },
     "product": {
-      "name": "...", "brand_model": "...", "hs_code": "Valid 6-digit WCO HS code", "origin": "South Korea",
+      "name": "General category", "brand_model": "Specific model name", "hs_code": "Valid 6-digit WCO HS code", "origin": "South Korea",
       "unit_price": 0, "quantity": 0, "total_amount": 0, "currency": "...",
       "marks_numbers": "Standardized Shipping Marks"
     },
@@ -32,22 +43,23 @@ Your output MUST be a SINGLE, valid JSON object containing both 'master_data' an
     "terms": {
       "payment_method": "L/C or T/T", "payment_deadline": "...",
       "partial_shipment": "Allowed/Prohibited", "transhipment": "Allowed/Prohibited",
-      "governing_law": "...", "arbitration_place": "..."
+      "governing_law": "...", "arbitration_place": "...",
+      "additional_notes": "Internal compliance notes or special instructions"
     },
     "dates": {
       "contract_date": "YYYY-MM-DD",
-      "lc_issue_date": "YYYY-MM-DD (must be >= contract_date if L/C)",
+      "lc_issue_date": "YYYY-MM-DD",
       "latest_shipment_date": "YYYY-MM-DD",
-      "bl_date": "YYYY-MM-DD (must be >= lc_issue_date and <= latest_shipment_date)",
-      "lc_expiry_date": "YYYY-MM-DD (must be >= bl_date if L/C)",
-      "invoice_date": "YYYY-MM-DD (must be <= bl_date)"
+      "bl_date": "YYYY-MM-DD",
+      "lc_expiry_date": "YYYY-MM-DD",
+      "invoice_date": "YYYY-MM-DD"
     }
   },
   "documents": {
-    "contract": { "contract_no": "", "date": "", "seller": {}, "buyer": {}, "shipment_deadline": "", "items": [{"description": "", "hs_code": "", "quantity": 0, "unit_price": 0, "amount": 0}], "total_amount": 0, "currency": "", "payment_terms": "", "incoterms": "", "is_signed": true },
-    "lc": { "lc_no": "", "issuing_bank": "", "advising_bank": "", "issue_date": "", "expiry_date": "", "applicant": {}, "beneficiary": {}, "amount": 0, "currency": "", "tolerance_percentage": "e.g., 5/5 or NIL", "form_of_lc": "IRREVOCABLE", "available_with": "", "draft_at": "", "description_of_goods": "", "documents_required": [], "additional_conditions": [] },
-    "bl": { "bl_no": "", "shipper": {}, "consignee": "Strictly 'TO THE ORDER OF [Issuing Bank]' if L/C", "notify_party": {}, "vessel_name": "", "voyage_no": "", "port_of_loading": "", "port_of_discharge": "", "container_seal_no": "", "marks_and_nos": "", "description_of_goods": "", "total_pkgs": 0, "gross_weight": 0, "measurement": 0, "freight_term": "Freight Collect for E/F, Prepaid for C/D", "is_clean_on_board": true, "shipped_on_board_date": "", "place_of_issue": "", "signed_by": "Carrier or Agent" },
-    "invoice": { "invoice_no": "", "date": "", "seller": {}, "buyer": {}, "transport_details": "", "payment_info": "", "marks_and_nos": "", "items": [], "total_amount": 0, "currency": "", "incoterms": "", "is_signed": true },
-    "pl": { "pl_no": "", "date": "", "seller": {}, "buyer": {}, "invoice_ref_no": "", "transport_details": "", "marks_and_nos": "Must match B/L exactly", "items": [{"description": "", "quantity": 0, "net_weight": 0, "gross_weight": 0, "measurement": 0}], "total_quantity": 0, "total_net_weight": 0, "total_gross_weight": 0, "total_measurement": 0, "is_signed": true }
+    "contract": { "contract_no": "", "date": "", "seller": {}, "buyer": {}, "shipment_deadline": "", "items": [{"description": "", "brand_model": "", "hs_code": "", "quantity": 0, "unit_price": 0, "amount": 0}], "total_amount": 0, "currency": "", "payment_terms": "", "incoterms": "", "is_signed": true },
+    "lc": { "lc_no": "", "issuing_bank": "", "advising_bank": "", "issue_date": "", "expiry_date": "", "applicant": {}, "beneficiary": {}, "amount": 0, "currency": "", "tolerance_percentage": "", "form_of_lc": "IRREVOCABLE", "available_with": "", "draft_at": "", "description_of_goods": "", "documents_required": [], "additional_conditions": [] },
+    "bl": { "bl_no": "", "shipper": {}, "consignee": "Strictly 'TO THE ORDER OF [Issuing Bank]' if L/C", "notify_party": {}, "vessel_name": "", "voyage_no": "", "port_of_loading": "", "port_of_discharge": "", "container_seal_no": "", "marks_and_nos": "", "description_of_goods": "", "total_pkgs": 0, "gross_weight": 0, "measurement": 0, "freight_term": "", "is_clean_on_board": true, "shipped_on_board_date": "", "place_of_issue": "", "signed_by": "", "has_shipped_stamp": true },
+    "invoice": { "invoice_no": "", "date": "", "seller": {}, "buyer": {}, "transport_details": "", "payment_info": "", "marks_and_nos": "", "items": [{"description": "", "brand_model": "", "quantity": 0, "unit_price": 0, "total": 0}], "total_amount": 0, "currency": "", "incoterms": "", "is_signed": true, "has_shipped_stamp": true, "discrepancy_note": "" },
+    "pl": { "pl_no": "", "date": "", "seller": {}, "buyer": {}, "invoice_ref_no": "", "transport_details": "", "marks_and_nos": "", "items": [{"description": "", "quantity": 0, "net_weight": 0, "gross_weight": 0, "measurement": 0}], "total_quantity": 0, "total_net_weight": 0, "total_gross_weight": 0, "total_measurement": 0, "is_signed": true }
   }
 }

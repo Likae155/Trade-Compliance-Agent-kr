@@ -1,7 +1,0 @@
-[
-    {
-        "doc": "invoice",
-        "issue": "AI Noted Discrepancy",
-        "detail": "B/L date 2023-11-16 exceeds latest shipment date 2023-11-15 (Discrepancy: Late Shipment)."
-    }
-]
