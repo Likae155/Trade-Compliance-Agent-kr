@@ -1,1 +1,7 @@
-"*.gguf" 
+.env
+ocr_storage/*
+test/*
+tools/*
+__pycache__
+*.zip
+*.gguf
